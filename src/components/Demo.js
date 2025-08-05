@@ -27,19 +27,19 @@ const  Demo=()=>{
             <p>Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>    
             </div>
             <div>
-                <img src="imag" alt="image"/>
+                <img src="images/cont2-img1.jpg" alt="image"/>
                 <h4>Passionately Creating Dersign Wonders:</h4>
                 <h4>Unleashing Boundless Creativity</h4>
             </div>
         </div>
         <div>
-            <img src="image" alt="image"/>
+            <img src="images/cont2-img2.jpg" alt="image"/>
         </div>
         </div>
         <div className="container3">
             <p>Professional Focused on helping your brand grow and move forward.</p>
             <div>
-                <img src="img" alt="images"/>
+                <img src="images/cont3-img1.jpg" alt="images"/>
                 <h2>Unique ideas</h2>
             </div>
             <div>
@@ -75,12 +75,12 @@ const  Demo=()=>{
             </div>
             <div>
                 <div>
-                    <img src="img" alt="img1"/>
-                    <img src="img" alt="img2"/>
+                    <img src="images/cont4-img1.jpg" alt="img1"/>
+                    <img src="images/cont4-img2.jpg" alt="img2"/>
                 </div>
                 <div>
-                    <img src="img" alt="img3"/>
-                    <img src="img" alt="img4"/>
+                    <img src="images/cont4-img3.jpg" alt="img3"/>
+                    <img src="images/cont4-img4.jpg" alt="img4"/>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ const  Demo=()=>{
             <span>Customer reviews are a valuable source <br/>of information for both businesses and consumers.</span>
             <h2>Customer <span>Voices:</span> <br/>Hear What <span >They Say!</span></h2>
             <div>
-                <img src="img" alt="img1"/>
+                <img src="images/cont5-img1.jpg" alt="img1"/>
                 <img src="img" alt="img2"/>
                 <img src="img" alt="img3"/>
                 <img src="img" alt="img4"/>
@@ -102,14 +102,14 @@ const  Demo=()=>{
             <button>VIEW ALL</button>
             <div>
                 <div>
-                    <img src="img" alt="image1"/>
+                    <img src="images/cont6-img1.jpg" alt="image1"/>
                     <h5>Technology May 24 2023</h5>
                     <h4>How to Become a Graphic Designer in 10 Simple Steps</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
                     <button>READ MORE</button>
                 </div>
                 <div>
-                   <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="nature" width="400"></img>
+                   <img src="images/cont6-img2.jpg"/>
                     <h5>Technology May 24 2023</h5>
                     <h4>16 Bset Graphical Design Online and Offline Courses</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
@@ -142,7 +142,7 @@ const  Demo=()=>{
             <p>71South Los Carneros Road,California +51174 705 812</p>
             <h3>Germany</h3>
             <p>Leehove 40,2678 MC De Lier,NetherLands +31174705811</p>
-            
+
         </div>
         </>
     )
