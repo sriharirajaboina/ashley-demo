@@ -115,10 +115,34 @@ const  Demo=()=>{
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
                     <button>READ MORE</button>
                 </div>
-                 <div>
-                    
+                 <div>  
                 </div>
             </div>
+        </div>
+        <div className="container7">
+            <div>
+                <h3>Ashley</h3>
+                <p>Subscribe Our newsletter</p>
+                <input type="email" placeholder="ENTER OUR EMAIL"/>
+            </div>
+            <div>
+                <h3>Home</h3>
+                <h3>Portfolio</h3>
+                <h3>Services</h3>
+                <h3>Contact</h3>
+                <h3>Blog</h3>
+            </div>
+             <div>
+                <h5>Privacy Policy</h5>
+                <h5>Terms and conditions</h5>
+                <h5>Cookie Policy</h5>
+                <h5>Careers</h5>
+            </div>
+            <h3>Canada</h3>
+            <p>71South Los Carneros Road,California +51174 705 812</p>
+            <h3>Germany</h3>
+            <p>Leehove 40,2678 MC De Lier,NetherLands +31174705811</p>
+            
         </div>
         </>
     )
