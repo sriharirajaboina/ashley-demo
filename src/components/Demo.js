@@ -11,7 +11,7 @@ const  Demo=()=>{
             </p>
             <div> 
                 <div>
-            <button>WHat WE DO </button>
+            <button>WHAT WE DO </button>
             <button>VIEW WORKS</button>
             </div>
             <div>
@@ -19,21 +19,21 @@ const  Demo=()=>{
             </div>
             </div>
         </div>
-        <div className="container2">
+        <div className="container2" style={{display:"flex"}}>
         <div>
             <div>
-            <h2>Discover Our Studio</h2>
-            <p>At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
-            <p>Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>    
+                <h2>Discover Our Studio</h2>
+                <p>At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
+                <p>Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>    
             </div>
             <div>
-                <img src="images/cont2-img1.jpg" alt="image"/>
+                <img src="images/cont2-img1.jpg" alt="image" style={{width:"250px",height:"550px"}}/>
                 <h4>Passionately Creating Dersign Wonders:</h4>
                 <h4>Unleashing Boundless Creativity</h4>
             </div>
         </div>
         <div>
-            <img src="images/cont2-img2.jpg" alt="image"/>
+            <img src="images/cont2-img2.jpg" alt="image" style={{width:"100%",height:"100%"}}/>
         </div>
         </div>
         <div className="container3">
