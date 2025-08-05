@@ -109,7 +109,7 @@ const  Demo=()=>{
                     <button>READ MORE</button>
                 </div>
                 <div>
-                   <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="nature" width="400"/>
+                   <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="nature" width="400"></img>
                     <h5>Technology May 24 2023</h5>
                     <h4>16 Bset Graphical Design Online and Offline Courses</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
