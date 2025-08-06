@@ -1,86 +1,95 @@
 import React from "react";
-
+import "./Demo.css"
 const  Demo=()=>{
     return (
         <>
-        <div className="container1">
-            <h1>Designing a Better World Today</h1>
-            <p>Welcome to our world of endless imagination and boundless creativity.
+        <div className="home">
+           <div className="home-one">
+            <h6 className="header" >
+                <span className="highlight">Designing</span> a Better <span className="highlight">World</span> Today</h6>
+            <p className="description" >Welcome to our world of endless imagination and boundless creativity.
                 Together,let's embark on a remarkable journey where dreams become tangible
                 realities
             </p>
-            <div> 
-                <div>
-            <button>WHAT WE DO </button>
-            <button>VIEW WORKS</button>
+            <div className="buttons"> 
+                <div className="btn-primary">
+                    <button className="whatwedo">WHAT WE DO </button>
+                    <span className="viewwork">VIEW WORKS</span>
+                </div>
+                <div className="btn-scroll">
+                    SCROLL BAR
+                </div>
             </div>
-            <div>
-                SCROLL BAR
-            </div>
-            </div>
-        </div>
-        <div className="container2" style={{display:"flex"}}>
-        <div>
-            <div>
-                <h2>Discover Our Studio</h2>
-                <p>At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
-                <p>Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>    
-            </div>
-            <div>
-                <img src="images/cont2-img1.jpg" alt="image" style={{width:"250px",height:"550px"}}/>
-                <h4>Passionately Creating Dersign Wonders:</h4>
-                <h4>Unleashing Boundless Creativity</h4>
             </div>
         </div>
-        <div>
-            <img src="images/cont2-img2.jpg" alt="image" style={{width:"100%",height:"100%"}}/>
+        <div className="studio">
+        <div className="left-section">
+            <div className="about-studio">
+                <h3 className="stu-header"><span className="stu-head1">Discover Our </span><span classsName="stu-head">Studio</span></h3>
+                <p className="stu-description">At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
+                <p className="stu-description">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>    
+            </div>
+            <div className="about-image">
+                <div className="stu-image">
+                <img src="images/cont2-img1.jpg" alt="image" className="profile-img"/>
+                </div>
+                <div className="img-det">
+                <span className="bold">Passionately Creating</span><span className="light">Dersign Wonders:</span>
+                <span className="bold">Unleashing</span><span className="light">Boundless Creativity</span>
+                </div>
+            </div>
+        </div>
+        <div className="right-section">
+            <img src="images/cont2-img2.jpg" alt="image" className="stu-img"/>
         </div>
         </div>
-        <div className="container3">
-            <p>Professional Focused on helping your brand grow and move forward.</p>
-            <div>
-                <img src="images/cont3-img1.jpg" alt="images"/>
-                <h2>Unique ideas</h2>
+        <div className="bussiness-idea">
+            <span className="buss-brand">Professional Focused on helping your brand___________________________________
+                </span><br/>
+            <span className="buss-head"> grow and move forward.</span>
+            <div className="ideas">
+                <img src="images/cont3-img1.jpg" alt="images" className="ideas-img"/>
+                <h2><span className="buss-bold">Unique</span> ideas</h2>
             </div>
-            <div>
-                <h2>For Your Business</h2>
-                <button>WHAT WE DO</button>
+            <div className="bussiness">
+                <h2><span className="buss">For Your</span> Business</h2>
+                <button className="btn-yellow">WHAT WE DO</button>
             </div>
-            <div>
-                <div>
+            <div className="buss-designs">
+                <div className="brand-des">
                     <h2>Branding and Identity Design</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                 </div>
-                <div>
+                <div className="web-design">
                     <h2>Website Design and Development</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                 </div>
-                <div>
+                <div className="advertising">
                     <h2>Advertising and Marketing Campaigns</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                 </div>
-                <div>
+                <div className="consulting">
                     <h2>Creative Consulting and Development</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                 </div>
             </div>
         </div>
-        <div className="container4">
-            <div>
-                <h2>Meet Our Team</h2>
+        <div className="team">
+            <div  className="team-description">
+                <h2><span>Meet</span><br/>Our Team</h2>
                 <p>We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
                 <p>Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
-                <button>READ MORE</button>
-                <p>We delivering exceptional results.</p>
+                <button className="read-more">READ MORE</button>
+                <p>We <span>delivering</span> exceptional <span>results.</span></p>
             </div>
-            <div>
-                <div>
-                    <img src="images/cont4-img1.jpg" alt="img1"/>
-                    <img src="images/cont4-img2.jpg" alt="img2"/>
+            <div className="team-img">
+                <div className="team-founder">
+                    <img src="images/cont4-img1.jpg" alt="img1" className="anna"/>
+                    <img src="images/cont4-img2.jpg" alt="img2" className="oscar"/>
                 </div>
-                <div>
-                    <img src="images/cont4-img3.jpg" alt="img3"/>
-                    <img src="images/cont4-img4.jpg" alt="img4"/>
+                <div className="team-founder">
+                    <img src="images/cont4-img3.jpg" alt="img3" className="emma"/>
+                    <img src="images/cont4-img4.jpg" alt="img4" className="lisa"/>
                 </div>
             </div>
         </div>

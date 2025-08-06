@@ -1,0 +1,296 @@
+.home{
+    background:#000000;
+    color:white;
+    width:100%;
+    height:50vh;
+    padding:70px;
+    padding-top:350px;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:60px;
+}
+.home-one {
+  margin-bottom: 80px;
+  font-size:thin;
+}
+.home-one p{
+  margin-bottom: 80px;
+}
+.highlight{
+    font-weight: bold;
+    font-size:50px;
+}
+.header{
+    font-size:30px;
+    font-weight:600px;
+    line-height: 1.6;
+}
+.description{
+    color:#808080;
+    font-size:20px;
+    width:90%;
+    line-height: 2.0;
+}
+.buttons{
+    display:flex;
+    justify-content:space-between; 
+
+}
+.whatwedo{
+    background:#FFFF00;
+    padding:20px;
+    width:250px;
+    border-radius:3cap;
+    cursor: pointer;
+}
+.viewwork{
+    color:#FFFFFF;
+    width:250px;
+    border-radius:3cap;
+     cursor: pointer;
+    padding:50px
+}
+.btn-scroll{
+    display:flex;
+    gap:20px;
+    margin-left:100px;
+    cursor: pointer;
+    padding:25px;
+    margin-right:9cap;
+}
+.studio{
+    display:flex;
+    justify-content: space-between;
+    text-align:left;
+    margin:20px;
+   
+}
+.left-section{
+   min-width:300px;
+    flex:1;
+
+}
+.right-section{
+    flex:1;
+    min-width:300px;
+}
+.stu-header{
+    flex:1;
+    font-weight:bold;
+    font-size:40px ;
+    margin-bottom: 50px;  
+}
+.stu-head1{
+    flex:1;
+    font-weight:300px;
+    font-size:80px;
+    
+}
+.stu-description{
+    flex:1;
+    color:#808080;
+    font-size: 20px;
+    width:100%;
+    margin-bottom: 50px;
+    line-height:1.6;
+}
+.about-image{
+    display:flex;
+    gap:20px;
+}
+.right-section {
+    max-width:100%;
+    height:auto;
+}
+.bold{
+    font-weight:bold;
+    color:#000000;
+   
+}
+.light{
+    font-weight:normal;
+    color:#808080;
+    
+}
+.profile-img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin-right:15px;
+}
+.stu-img{
+    width:100%;
+    height:100vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+@media screen and (max-width:1024px){
+    .studio{
+        flex-direction:column;
+        padding:20px;
+    }
+    .about-image{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .left-section{
+        order:1;
+    }
+    .right-section{
+        order:2;
+    }
+    .img-det{
+        display:flex;
+        margin-bottom: 50px;;
+    }
+}
+.bussiness-idea{
+    background-color: #000000;
+    color:#FFFFFF;
+    margin-bottom: 50px;
+    padding:100px;
+   
+}
+.buss-brand {
+    color: #808080;
+    text-align: right;
+    padding-left:150px;
+    
+}
+.buss-head{
+    color:#808080;
+    text-align: right;
+    padding-left:50px;
+}
+.ideas{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    margin-bottom: 50px;
+}
+.ideas-img{
+    width:250px;
+    height:70px;
+    margin-top: 30px;;
+    border-radius:50px;
+    margin-bottom: 50px;
+}
+.buss-bold{
+    font-size:90px;
+}
+.bussiness{
+    display:flex;
+    gap:20px;
+   margin-left:70px;
+    margin-bottom: 150px;
+}
+.buss{
+    font-size:90px;
+    margin-bottom:20px;
+}
+.btn-yellow{
+    width:250px;
+    background-color: #FFFF00;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.buss-designs{
+    display:flex;
+    border:1px solid #808080;
+    margin-top: 20px;
+    margin:20px;
+    height:90vh;
+   
+}
+.brand-des{
+    border:1px solid #808080;
+    text-align: left;
+    padding-top: 80px;
+     padding-left: 20px;
+}
+.web-design {
+    border:1px solid #808080;
+      text-align: left;
+    padding-top: 50px;
+     padding-left: 20px;
+}
+.advertising {
+      text-align: left;
+      padding-top: 80px;
+    padding-left: 20px;
+}
+.consulting{
+     border:1px solid #808080;
+     text-align: left;
+     padding-top: 50px;
+     padding-left: 20px;
+}
+@media screen and (max-width:1024px){
+    .bussiness-idea{
+        display:flex;
+        flex-direction: column;
+    }
+    .ideas-img{
+        visibility: hidden;;
+    }
+    .buss-designs{
+        display:flex;
+        flex-direction:column;
+    }
+    .brand-des{
+        padding-top:20px;
+        padding-bottom:100px;
+    }
+    .web-design{
+         padding-top:20px;
+         padding-bottom:100px;
+    }
+    .advertising {
+        padding-top:20px;
+        padding-bottom:100px;
+    }
+    .consulting{
+        padding-top:20px;
+         padding-bottom:100px;
+    }
+}
+.team{
+    display:flex;
+}
+.team-description h2{
+    font-size:50px;
+    padding-right:150px;
+}
+.team-description p{
+    color:#808080
+}
+.read-more{
+    width:200px;
+    padding:30px;
+    border-radius: 50px;
+    background-color: #ffa500;
+}
+ .anna{
+   width:45%;
+    padding-top:20px;
+    margin-top:10px;
+}
+.oscar{
+   width:45%; 
+   padding-top:20px;
+   margin-left: 20px;
+   padding-left:20px;
+   
+}
+.emma{
+    width:45%; 
+     padding-top:20px;
+}
+.lisa{
+    width:45%; 
+    padding-top:20px;
+    margin-left: 20px;
+    margin-top:10px;
+    padding-left:20px;
+}
