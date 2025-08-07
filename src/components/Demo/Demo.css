@@ -37,20 +37,59 @@
     justify-content:space-between; 
 
 }
-.whatwedo{
-    background:#FFFF00;
-    padding:20px;
-    width:250px;
-    border-radius:3cap;
+.btn-whatwedo{
+    display:inline-block;
+    width:200px;
+    background:#ffa500;
+    color:#000000;
+    text-align: left;
+    padding:30px;
+    border-radius:50px;
     cursor: pointer;
+    
 }
-.viewwork{
+.btn-viewwork{
     color:#FFFFFF;
     width:250px;
     border-radius:3cap;
      cursor: pointer;
-    padding:50px
+    padding:50px;
+    align-items: center;
 }
+.circle{
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+   
+}
+.what-arrow{
+    display:inline-block;
+    font-size:50px;
+    margin-left:-60px;
+    margin-right:50px;
+   text-align: center;
+   background-color: #000000;
+   border-radius: 100%;
+   width:60px;
+   height:60px;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.view-arrow{
+    background-color: #808080;
+    border-radius: 100%;
+    text-align: center;
+    display:inline-block;
+    font-size:30px;
+   width:50px;
+   height:50px;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
 .btn-scroll{
     display:flex;
     gap:20px;
@@ -191,9 +230,15 @@
 }
 .btn-yellow{
     width:250px;
-    background-color: #FFFF00;
+    border:none;
+    font-size:18px;
+    font-weight:bold;
+    background-color: #ffa500;
     border-radius: 50px;
     margin-bottom: 20px;
+    margin-top: 40px;
+    text-align:center;
+    height:80px;
 }
 .buss-designs{
     display:flex;
@@ -231,6 +276,11 @@
         display:flex;
         flex-direction: column;
     }
+    .buss-head{
+    color:#808080;
+    text-align: right;
+    padding-left:50px;
+}
     .ideas-img{
         visibility: hidden;;
     }
@@ -257,19 +307,43 @@
 }
 .team{
     display:flex;
+    justify-content: space-between;
+    padding-top:20px;
+
 }
 .team-description h2{
     font-size:50px;
-    padding-right:150px;
+    text-align: left;
+    padding-left:50px;
+     padding-top:100px;
+     margin-bottom: 50px;
 }
-.team-description p{
-    color:#808080
+.team-p{
+    color:#808080;
+    font-size:20px;
+    padding-left:50px;
+    text-align: left;
+    line-height:1.2;
+    margin-bottom: 50px;
+   
 }
 .read-more{
-    width:200px;
+    width:300px;
     padding:30px;
+    text-align: left;
     border-radius: 50px;
+    border:none;
     background-color: #ffa500;
+    margin-bottom:50px;
+    margin-left: -600px;
+}
+.team-result{
+     text-align: left;
+     padding-left:50px;
+     font-size:30px;
+}
+.team-bold{
+    font-weight:bold ;
 }
  .anna{
    width:45%;
@@ -293,4 +367,354 @@
     margin-left: 20px;
     margin-top:10px;
     padding-left:20px;
+}
+@media screen and (max-width:1024px){
+    .team{
+        display:flex;
+        flex-direction:column
+    }
+    .team-description h2{
+        display:flex;
+        padding-left:50px;
+        flex-direction:column;
+        text-align: left;
+    }
+     .team-description br{
+        display:none;
+     }
+      .team-description span{
+        display:inline;
+     }
+    
+}
+.customer-voice{
+    background:#808080;
+}
+.cv-head{
+    text-align: left;
+}
+.cv-bold{
+    font-size:60px;
+    font-weight: bold;
+}
+.cv-light{
+    font-size:50px;
+    font-weight: normal;
+    padding-left: center;
+}
+@media (min-width: 1025px){
+ .publications{
+    margin:0 40px;
+ }
+ .pub-head{
+    font-size:40px;
+    margin:100px 250px;
+ }
+ .pub-view{
+    font-size:20px;
+    margin:100px 250px;
+ }
+.pub-nav{
+    display:flex;
+    justify-content: space-between;
+}
+.pub-img{
+    display:flex;
+    gap:40px;
+    padding-left: 30px;;
+}
+.pub-about{
+    text-align: left;
+}
+.pub-design-img{
+    width:700px;
+    margin-left:250px;
+
+}
+.pub-course-img{
+    width:700px;
+   margin-right:250px;
+}
+.pub-courses{
+    text-align: left;
+}
+.pub-date-d{
+    font-size:25px;
+    
+}
+.pub-tech-d{
+    color:#ffa500;
+    margin-left:250px;
+}
+.pub-year-d{
+    color:#808080;
+}
+.pub-header-d{
+    font-size:30px;
+    margin-left:250px;
+}
+.pub-description-d{
+    color:#808080;
+    margin-bottom: 40px;
+    margin-left:250px;
+}
+.pub-readmore-d{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:30px;
+    margin-left:250px;
+}
+.pub-date-c{
+    font-size:25px;
+    
+}
+.pub-tech-c{
+    color:#ffa500;
+    
+}
+.pub-year-c{
+    color:#808080;
+}
+.pub-header-c{
+    font-size:30px;
+    
+}
+.pub-description-c{
+    color:#808080;
+    margin-bottom: 40px;
+   
+}
+.pub-readmore-c{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:30px;
+    
+}
+}
+@media screen and (max-width:1024px){
+    .publications{
+        display:flex;
+        flex-direction: column;
+    }
+    .pub-nav{
+    display:flex;
+    flex-direction: column;
+    font-size:50px;
+}
+.pub-head{
+    text-align: left;
+    padding-left:30px;
+     font-size:60px;
+}
+.pub-view{
+    text-align: left;
+    padding-left:30px;
+     font-size:20px;
+     margin-bottom:40px;
+}
+.pub-img{
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;
+}
+.pub-about{
+    text-align: left;
+    margin-bottom:100px;
+}
+.pub-courses{
+    text-align: left; 
+}
+.pub-img img{
+    width:95%;
+}
+.pub-date-d{
+    font-size:25px;
+    
+}
+.pub-tech-d{
+    color:#ffa500
+}
+.pub-year-d{
+    color:#808080;
+}
+.pub-header-d{
+    font-size:30px;
+}
+.pub-description-d{
+    color:#808080;
+    margin-bottom: 40px;
+}
+.pub-readmore-d{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.pub-date-c{
+    font-size:25px;
+    
+}
+.pub-tech-c{
+    color:#ffa500
+}
+.pub-year-c{
+    color:#808080;
+}
+.pub-header-c{
+    font-size:30px;
+}
+.pub-description-c{
+    color:#808080;
+    margin-bottom: 40px;
+}
+.pub-readmore-c{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.pub-courses{
+    text-align: left;
+    margin-bottom:100px;
+}
+.pub-courses br{
+    display:none;
+}
+.pub-about br{
+    display:none;
+}
+}
+@media screen and (min-width:1025px){
+    .footer{
+        background: #000000;
+        color:#FFFFFF;
+        margin-top: 50px;;
+    }
+   .footer-content{
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left:250px;
+    padding-top: 100px;
+   }
+   .footer-left h2{
+    font-size:50px;
+     margin-bottom: 50px;
+   }
+   .footer-left p{
+    font-size:20px;
+    color:#808080;
+    margin-bottom: 40px;
+   }
+   .email input{
+    width:350px;
+    padding:40px;
+    background:transparent;
+    border-radius: 50px;
+    margin-bottom: 350px;
+   }
+   .footer-center ul{
+        list-style: none;
+        font-size:40px;
+        font-weight:bold;
+        line-height: 2;
+   }
+   .footer-center .active{
+    color:#ffa500;
+   }
+   .footer-center,.footer-right{
+    flex:1;
+    min-width:200px;
+   }
+   .footer-right ul{
+    list-style:none;
+    font-size: 20px;
+    color:#808080;
+    margin-top:50px;
+    line-height:2.5;
+
+   }
+   .footer-address{
+    display:flex;
+    flex:1;
+    color:#aaa;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    line-height:1.5;
+    margin-top:20px;
+   }
+   .footer-address > div{
+    width:45%;
+    font-size:15px;
+    flex:1 1 100%;
+   }
+}
+@media  screen and (max-width:1024px) {
+    footer{
+        display:flex;
+        flex-direction: column;
+        background-color: #000000;
+        color:#FFFFFF;
+        
+    }
+    .footer-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-left:50px ;
+    padding-top: 100px;
+   }
+   .footer-left h2{
+    font-size:50px;
+     margin-bottom: 50px;
+   }
+    .footer-left p{
+    font-size:20px;
+    color:#808080;
+    margin-bottom: 40px;
+   }
+   .email input{
+    width:350px;
+    padding:40px;
+    background:transparent;
+    border-radius: 50px;
+   }
+    .footer-center ul{
+        list-style: none;
+        font-size:40px;
+        font-weight:bold;
+        line-height: 2;
+   }
+   .footer-center .active{
+    color:#ffa500;
+   }
+    .footer-center,.footer-right{
+    flex:1;
+    min-width:200px;
+   }
+   .footer-right ul{
+    list-style:none;
+    font-size: 20px;
+    color:#808080;
+    margin-top:50px;
+    line-height:2.5;
+
+   }
+   .footer-address{
+    display:flex;
+    flex:1;
+    color:#aaa;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    line-height:1.5;
+    margin-top:20px;
+    margin-left:30px;
+   }
+   .footer-address > div{
+    width:45%;
+    font-size:15px;
+    flex:1 1 100%;
+   }
+   .footer-address br{
+    display: none;
+   }
 }

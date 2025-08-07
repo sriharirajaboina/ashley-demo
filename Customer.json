@@ -1,0 +1,20 @@
+const customer= [{
+"id": 1,
+"name": "",
+"image": "",
+"descript": ""
+},
+{
+"id": 1,
+"name": "",
+"image": "",
+"descript": ""
+},
+{
+"id": 1,
+"name": "",
+"image": "",
+"descript": ""
+}
+
+]

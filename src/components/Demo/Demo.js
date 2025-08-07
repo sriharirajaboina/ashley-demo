@@ -13,8 +13,12 @@ const  Demo=()=>{
             </p>
             <div className="buttons"> 
                 <div className="btn-primary">
-                    <button className="whatwedo">WHAT WE DO </button>
-                    <span className="viewwork">VIEW WORKS</span>
+                    <span className="circle">
+                        <span className="btn-whatwedo">WHAT WE DO </span>
+                        <span className="what-arrow">&#8594;</span>
+                        <span className="btn-viewwork">VIEW WORKS</span>
+                        <span className="view-arrow">&#8594;</span>  
+                    </span>   
                 </div>
                 <div className="btn-scroll">
                     SCROLL BAR
@@ -77,10 +81,10 @@ const  Demo=()=>{
         <div className="team">
             <div  className="team-description">
                 <h2><span>Meet</span><br/>Our Team</h2>
-                <p>We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
-                <p>Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
+                <p className="team-p">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
+                <p className="team-p">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
                 <button className="read-more">READ MORE</button>
-                <p>We <span>delivering</span> exceptional <span>results.</span></p>
+                <p className="team-result">We <span className="team-bold">delivering</span> exceptional <span className="team-bold">results.</span></p>
             </div>
             <div className="team-img">
                 <div className="team-founder">
@@ -93,9 +97,9 @@ const  Demo=()=>{
                 </div>
             </div>
         </div>
-        <div className="container5">
-            <span>Customer reviews are a valuable source <br/>of information for both businesses and consumers.</span>
-            <h2>Customer <span>Voices:</span> <br/>Hear What <span >They Say!</span></h2>
+        <div className="customer-voice">
+            <span className="cv-head">Customer reviews are a valuable source <br/>of information for both businesses and consumers.</span><br/>
+            <span className="cv-light"><span className="cv-bold">Customer</span> <span >Voices:</span><br/><span className="cv-bold" >Hear What </span >They Say!</span>
             <div>
                 <img src="images/cont5-img1.jpg" alt="img1"/>
                 <img src="img" alt="img2"/>
@@ -106,53 +110,75 @@ const  Demo=()=>{
                 <img src="img" alt="img7"/>
             </div>
         </div>
-        <div className="container6">
-            <h3>Popular Publications:</h3>
-            <button>VIEW ALL</button>
-            <div>
-                <div>
-                    <img src="images/cont6-img1.jpg" alt="image1"/>
-                    <h5>Technology May 24 2023</h5>
-                    <h4>How to Become a Graphic Designer in 10 Simple Steps</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                    <button>READ MORE</button>
+        <div className="publications">
+            <div className="pub-nav">
+                <h3 className="pub-head">Popular Publications:</h3>
+                <span className="pub-view">VIEW ALL</span>
+            </div>
+            <div className="pub-img">
+                <div className="pub-about">
+                    <img src="images/cont6-img1.jpg" alt="image1" className="pub-design-img"/>
+                    <h5 className="pub-date-d"><span className="pub-tech-d">Technology</span><span className="pub-year-d"> May 24 2023</span></h5>
+                    <h4 className="pub-header-d">How to Become a Graphic Designer in 10<br/> Simple Steps</h4>
+                    <p className="pub-description-d">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                    <span className="pub-readmore-d">READ MORE</span>
                 </div>
-                <div>
-                   <img src="images/cont6-img2.jpg"/>
-                    <h5>Technology May 24 2023</h5>
-                    <h4>16 Bset Graphical Design Online and Offline Courses</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                    <button>READ MORE</button>
-                </div>
-                 <div>  
+                <div className="pub-courses">
+                   <img src="images/cont6-img2.jpg" alt="img" className="pub-course-img"/>
+                    <h5 className="pub-date-c"><span className="pub-tech-c">Technology</span><span className="pub-year-c"> May 24 2023</span></h5>
+                    <h4 className="pub-header-c">16 Bset Graphical Design Online and Offline<br/> Courses</h4>
+                    <p className="pub-description-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                    <span className="pub-readmore-c">READ MORE</span>
                 </div>
             </div>
         </div>
-        <div className="container7">
-            <div>
-                <h3>Ashley</h3>
-                <p>Subscribe Our newsletter</p>
-                <input type="email" placeholder="ENTER OUR EMAIL"/>
+        <footer className="footer">
+            <div className="footer-content">
+                <div className="footer-left">
+                    <h2>Ashley.</h2>
+                    <p>Subscribe our newletter:</p>
+                    <div className="email">
+                        <input type="email" 
+                        placeholder="Enter your email"/>
+                    </div>
+                </div>
+                <div className="footer-center">
+                    <ul>
+                        <li className="active">Home</li>
+                        <li>Portfolio</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div className="footer-right">
+                    <ul>
+                        <li>Privacy policy</li>
+                        <li>Terms and conditions</li>
+                        <li>Cookie Policy</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div className="footer-address">
+                    <div>
+                        <strong>Canada</strong>
+                        <p>71 South Los Carneros Road,
+                            <br/>California +51 174 705 812
+                        </p>
+                    </div>
+                    <div>
+                        <strong>Gerrmany</strong>
+                        <p>Leehove 40, 2678 MC De Lier,
+                            <br/>Netherlands +31 174 705 811
+                        </p>
+                    </div>
+                    <div className="copyright">
+                        <p>Copyright 2023 - Mil. All Rights Reserved.</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>Home</h3>
-                <h3>Portfolio</h3>
-                <h3>Services</h3>
-                <h3>Contact</h3>
-                <h3>Blog</h3>
-            </div>
-             <div>
-                <h5>Privacy Policy</h5>
-                <h5>Terms and conditions</h5>
-                <h5>Cookie Policy</h5>
-                <h5>Careers</h5>
-            </div>
-            <h3>Canada</h3>
-            <p>71South Los Carneros Road,California +51174 705 812</p>
-            <h3>Germany</h3>
-            <p>Leehove 40,2678 MC De Lier,NetherLands +31174705811</p>
 
-        </div>
+        </footer>
         </>
     )
 }
