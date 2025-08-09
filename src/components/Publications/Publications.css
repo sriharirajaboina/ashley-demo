@@ -1,0 +1,224 @@
+@media (min-width: 1025px) {
+    .publications {
+        margin: 0 40px;
+    }
+
+    .pub-head {
+        font-size: 40px;
+        margin: 100px 250px;
+    }
+
+    .pub-view {
+        font-size: 20px;
+        margin: 100px 250px;
+    }
+
+    .pub-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pub-img {
+        display: flex;
+        gap: 40px;
+        padding-left: 30px;
+        ;
+    }
+
+    .pub-about {
+        text-align: left;
+    }
+
+    .pub-design-img {
+        width: 700px;
+        margin-left: 250px;
+
+    }
+
+    .pub-course-img {
+        width: 700px;
+        margin-right: 250px;
+    }
+
+    .pub-courses {
+        text-align: left;
+    }
+
+    .pub-date-d {
+        font-size: 25px;
+
+    }
+
+    .pub-tech-d {
+        color: #ffa500;
+        margin-left: 250px;
+    }
+
+    .pub-year-d {
+        color: #808080;
+    }
+
+    .pub-header-d {
+        font-size: 30px;
+        margin-left: 250px;
+    }
+
+    .pub-description-d {
+        color: #808080;
+        margin-bottom: 40px;
+        margin-left: 250px;
+    }
+
+    .pub-readmore-d {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-left: 250px;
+    }
+
+    .pub-date-c {
+        font-size: 25px;
+
+    }
+
+    .pub-tech-c {
+        color: #ffa500;
+
+    }
+
+    .pub-year-c {
+        color: #808080;
+    }
+
+    .pub-header-c {
+        font-size: 30px;
+
+    }
+
+    .pub-description-c {
+        color: #808080;
+        margin-bottom: 40px;
+
+    }
+
+    .pub-readmore-c {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .publications {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pub-nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+
+    .pub-head {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 60px;
+    }
+
+    .pub-view {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .pub-img {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .pub-about {
+        text-align: left;
+        margin-bottom: 100px;
+    }
+
+    .pub-courses {
+        text-align: left;
+    }
+
+    .pub-img img {
+        width: 95%;
+    }
+
+    .pub-date-d {
+        font-size: 25px;
+
+    }
+
+    .pub-tech-d {
+        color: #ffa500
+    }
+
+    .pub-year-d {
+        color: #808080;
+    }
+
+    .pub-header-d {
+        font-size: 30px;
+    }
+
+    .pub-description-d {
+        color: #808080;
+        margin-bottom: 40px;
+    }
+
+    .pub-readmore-d {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .pub-date-c {
+        font-size: 25px;
+
+    }
+
+    .pub-tech-c {
+        color: #ffa500
+    }
+
+    .pub-year-c {
+        color: #808080;
+    }
+
+    .pub-header-c {
+        font-size: 30px;
+    }
+
+    .pub-description-c {
+        color: #808080;
+        margin-bottom: 40px;
+    }
+
+    .pub-readmore-c {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .pub-courses {
+        text-align: left;
+        margin-bottom: 100px;
+    }
+
+    .pub-courses br {
+        display: none;
+    }
+
+    .pub-about br {
+        display: none;
+    }
+}

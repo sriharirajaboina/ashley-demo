@@ -1,7 +1,14 @@
 import React,{useState} from "react";
 import './App.css';
-import Demo from "./components/Demo/Demo"
-import Navbar from './components/Navbar'
+
+import Navbar from "./components/Navbar/Navbar"
+import Homepage from "./components/Homepage/Homepage";
+import Studio from "./components/studio/Studio"
+import Ideas from "./components/ideas/Ideas"
+import Team from "./components/team/Team"
+import Customers from "./components/customers/Customers";
+import Publications from "./components/Publications/Publications";
+import Footer from "./components/footer/Footer"
 
 function App() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -18,8 +25,14 @@ function App() {
     <div className="App">
       <Navbar anchorEl={anchorEl} handleMenuClick={handleMenuClick} 
       handleClose ={handleClose}/>
-      {!anchorEl && <div style={{ marginTop: "70px" }}>
-        <Demo/>
+      {!anchorEl && <div style={{ marginTop: "60px" }}>
+        <Homepage/>
+        <Studio/>
+        <Ideas/>
+        <Team/>
+        <Customers/>
+        <Publications/>
+        <Footer/>
       </div>}
     </div>
   );

@@ -1,0 +1,33 @@
+.customer-voice {
+    background: #808080;
+   height:100vh
+}
+
+.cv-head {
+    text-align: left;
+
+}
+
+.cv-bold {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.cv-light {
+    font-size: 50px;
+    font-weight: normal;
+    padding-left: center;
+}
+.cv-header{
+    margin-bottom: 40px;;
+}
+.customer-details{
+    display:flex;
+}
+.customer-img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

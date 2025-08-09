@@ -1,0 +1,364 @@
+@media screen and (min-width:1025px){
+.bussiness-idea {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    padding: 100px;
+    text-align:right;
+} 
+.buss-brand {
+    color: #808080;
+    text-align: right;
+    padding-left: 150px;
+    padding-right:450px;
+    font-weight: bold;
+
+}
+
+.buss-head {
+    color: #808080;
+    text-align: right;
+    padding-left: 50px;
+    padding-right:450px;
+     font-weight: bold;
+}
+
+.ideas {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    padding-left:400px;
+    
+
+}
+.ideas h2{
+    font-size:100px;
+}
+
+.ideas-img {
+    width: 400px;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+   
+}
+
+.buss-bold {
+    font-size: 100px;
+}
+
+.bussiness {
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+    padding-left:200px;
+    margin-top:-150px;
+}
+.bussiness h2{
+    font-size:100px;
+    margin-top:10px;
+}
+
+.btn-yellow {
+    width: 270px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffa500;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display:felx;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.circle{
+    width:60px;
+    height:60px;
+    border:1px solid #000000;
+    background-color:#000000;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top:50px;
+    margin-left:-85px;
+}
+.arrow{
+    font-size:30px;
+}
+.buss-designs {
+    display: flex;
+    border: 1px solid #808080;
+    margin-top: 20px;
+    margin: 20px;
+    height: 50vh;
+    padding-left:50px;
+    margin-left:150px;
+
+}
+
+.brand-des {
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 20px;
+    /* padding-bottom:50px;    */
+}
+
+.web-design {
+    border: 1px solid #808080;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-bottom:50px;
+}
+
+.advertising {
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.consulting {
+    border: 1px solid #808080;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.brand-circle{
+        width:20px;
+        height:20px;
+        border:2px solid #000000;
+        background-color: #808080;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .brand-arrow{
+        font-size:10px;
+        color:#000000;
+        font-weight: bold;
+         cursor: pointer;
+    }
+    .web-circle{
+        width:20px;
+        height:20px;
+        border:2px solid #000000;
+        background-color: #808080;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+         cursor: pointer;
+    }
+    .web-arrow{
+        font-size:10px;
+        color:#000000;
+        font-weight: bold;
+         cursor: pointer;
+    }
+    .adv-circle{
+        width:20px;
+        height:20px;
+        border:2px solid #000000;
+        background-color:#808080;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+         cursor: pointer;
+    }
+    .adv-arrow{
+        font-size:10px;
+        color:#000000;
+        font-weight: bold;
+         cursor: pointer;
+    }
+    .con-circle{
+        width:20px;
+        height:20px;
+        border:2px solid #000000;
+        background-color: #808080;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+         cursor: pointer;
+    }
+    .con-arrow{
+        font-size:10px;
+        color:#000000;
+        font-weight: bold;
+         cursor: pointer;
+    }
+}
+@media screen and (max-width:1024px) {
+    .bussiness-idea {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    padding: 100px;
+    text-align: center;
+    margin-top:60px;
+} 
+    .buss-head,.buss-brand {
+        color: #808080;
+        margin-left:40%;
+        text-align: center;
+        align-items: center;
+    }
+    .ideas{
+        text-align:center;
+        margin-top:-500px;
+    }
+    .buss-bold{
+        font-size: 60px;
+    
+        
+    }
+    .bussiness h2{
+        font-size:50px;
+    }
+    .ideas-img {
+        visibility: hidden;
+    }
+    .bussiness{
+        display:block;
+        text-align: center;
+        
+    }
+    .btn-yellow {
+    width: 270px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffa500;
+    border-radius: 50px;
+    margin-top: 60px;
+    display:felx;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin-bottom: 100px;;
+}
+.circle{
+    width:60px;
+    height:50px;
+    border:1px solid #000000;
+    background-color:#000000;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top:50px;
+    
+}
+.arrow{
+    font-size:40px; 
+}
+
+    .buss-designs {
+        display: flex;
+        flex-direction: column;
+        border:1px solid #808080;
+        
+       
+    }
+
+    .brand-des {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        border:1px solid #808080;
+        text-align: left;
+        padding-left: 30px;;
+    }
+    
+
+    .web-design {
+        padding-top: 20px;
+        padding-bottom: 50px;
+         border:1px solid #808080;
+         text-align: left;
+        padding-left: 30px;;
+    }
+
+    .advertising {
+        padding-top: 20px;
+        padding-bottom: 50px;
+         border:1px solid #808080;
+         text-align: left;
+        padding-left: 30px;;
+    }
+
+    .consulting {
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 30px;;
+       
+    }
+    .brand-circle{
+        width:50px;
+        height:50px;
+        border:2px solid #000000;
+        background-color: #ffa500;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .brand-arrow{
+        font-size:30px;
+        color:#000000;
+        font-weight: bold;
+    }
+    .web-circle{
+        width:50px;
+        height:50px;
+        border:2px solid #000000;
+        background-color: #ffa500;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .web-arrow{
+        font-size:30px;
+        color:#000000;
+        font-weight: bold;
+    }
+    .adv-circle{
+        width:50px;
+        height:50px;
+        border:2px solid #000000;
+        background-color: #ffa500;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .adv-arrow{
+        font-size:30px;
+        color:#000000;
+        font-weight: bold;
+    }
+    .con-circle{
+        width:50px;
+        height:50px;
+        border:2px solid #000000;
+        background-color:#ffa500;
+        border-radius: 50%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .con-arrow{
+        font-size:30px;
+        color:#000000;
+        font-weight: bold;
+    }
+}
