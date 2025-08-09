@@ -7,7 +7,7 @@ const Customers=()=>{
         <div className="customer-voice">
             <div className="cv-header">
             <span className="cv-head">Customer reviews are a valuable source <br/>of information for both businesses and consumers.</span><br/>
-            <span className="cv-light"><span className="cv-bold">Customer</span> <span >Voices:</span><br/><span className="cv-bold" >Hear What </span >They Say!</span>
+            <span className="cv-lights"><span className="cv-bolds">Customer</span> <span >Voices:</span><br/><span className="cv-bolds" >Hear What </span >They Say!</span>
             </div>
             <div className="customer-details">
                 <div className="customer-detail">

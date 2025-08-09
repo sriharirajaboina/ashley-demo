@@ -60,7 +60,7 @@
 }
 
 .btn-yellow {
-    width: 270px;
+    width: 350px;
     border: none;
     font-size: 18px;
     font-weight: bold;
@@ -73,10 +73,10 @@
     justify-content: center;
     height: 80px;
 }
-.circle{
+.ideas-circle{
     width:60px;
     height:60px;
-    border:1px solid #000000;
+   
     background-color:#000000;
     border-radius: 50%;
     display:flex;
@@ -84,9 +84,9 @@
     justify-content: center;
     cursor: pointer;
     margin-top:50px;
-    margin-left:-85px;
+    margin-left:-90px;
 }
-.arrow{
+.ideas-arrow{
     font-size:30px;
 }
 .buss-designs {
@@ -104,7 +104,6 @@
     text-align: left;
     padding-top: 90px;
     padding-left: 20px;
-    /* padding-bottom:50px;    */
 }
 
 .web-design {
@@ -232,7 +231,7 @@
         
     }
     .btn-yellow {
-    width: 270px;
+    width: 300px;
     border: none;
     font-size: 18px;
     font-weight: bold;
@@ -245,9 +244,9 @@
     height: 70px;
     margin-bottom: 100px;;
 }
-.circle{
+.ideas-circle{
     width:60px;
-    height:50px;
+    height:60px;
     border:1px solid #000000;
     background-color:#000000;
     border-radius: 50%;
@@ -255,11 +254,22 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-top:50px;
+    margin-top:-165px;
+    margin-left:60%;
+    margin-bottom: 150px;
     
 }
-.arrow{
-    font-size:40px; 
+.ideas-arrow{
+    width:50px;
+    height:50px;
+    border:1px solid #000000;
+    background-color: #000000;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+    font-size:30px; 
+    color:#ffa500
 }
 
     .buss-designs {

@@ -12,8 +12,8 @@ const Footer=()=>{
                     <div className="email">
                         <input type="email" 
                         placeholder="Enter your email"/>
-                        <span className="circle">
-                            <div className="arrow">&#8594;</div>
+                        <span className="footer-circle">
+                            <div className="footer-arrow">&#8594;</div>
                         </span>
                     </div>
                 </div>

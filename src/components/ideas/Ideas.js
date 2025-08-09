@@ -14,8 +14,8 @@ const Ideas=()=>{
             <div className="bussiness">
                 <h2><span className="buss">For Your</span> Business</h2>
                 <button className="btn-yellow">WHAT WE DO</button>
-                <div className="circle">
-                    <div className="arrow">&#8594;</div>
+                <div className="ideas-circle">
+                    <div className="ideas-arrow">&#8594;</div>
                 </div>
             </div>
             <div className="buss-designs">

@@ -16,7 +16,7 @@ const Homepage=()=>{
                 <div className= "btn">
                     <div className= "btn-primary">
                             <span className="btn-text">WHAT WE DO </span>
-                            <span className="btn-arrow">&#8594;</span>
+                            <span className="home-arrow">&#8594;</span>
                     </div>  
                     <div className="btn-viewwork">
                         <span className="btn-secondary-text">VIEW WORKS</span>
