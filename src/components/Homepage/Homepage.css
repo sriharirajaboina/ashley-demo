@@ -1,13 +1,13 @@
 @media screen and (min-width:1025px){
 .home {
-    background: #000000;
     color: white;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
+    background: #000000;
     text-align: left;
     display: flex;
+    /* overflow-x: hidden; */
 }
-
 .home-one {
     font-size: thin;
 }
@@ -36,11 +36,13 @@
 .buttons {
     display: flex;
     justify-content: space-between;
+    cursor:pointer;
 
 }
 .btn{
     display:flex;
     margin-left:300px;
+    
 }
 .btn-primary{
    display: flex;
@@ -55,6 +57,7 @@
     border-radius:100px;
     color:#000000;
     font-weight: bold;
+    cursor: pointer;
 
 }
 .home-arrow{

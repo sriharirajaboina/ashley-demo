@@ -3,7 +3,7 @@
         background: #000000;
         color: #FFFFFF;
         margin-top: 50px;
-        ;
+        overflow-x: hidden;
     }
 
     .footer-content {

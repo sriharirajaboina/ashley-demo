@@ -1,6 +1,7 @@
 @media (min-width: 1025px) {
     .publications {
         margin: 0 40px;
+        overflow-x: hidden;
     }
 
     .pub-head {

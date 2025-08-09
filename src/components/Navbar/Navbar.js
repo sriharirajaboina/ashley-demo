@@ -45,7 +45,7 @@ export default function Navbar({anchorEl,handleMenuClick,handleClose}) {
         </div>
       </Toolbar>
     </AppBar>
-    {anchorEl && <div className="container7" style={{width:"100%",height:"100%",padding:"50px"}}>
+    {anchorEl && <div className="container7" style={{width:"80%",height:"80%",padding:"50px"}}>
                <h2>HomePage</h2>
                <h2>Portfolio</h2>
                <h2>Service</h2>

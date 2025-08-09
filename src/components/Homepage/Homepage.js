@@ -1,7 +1,9 @@
 import React from "react"
 import "./Homepage.css"
-
+import { useNavigate } from "react-router-dom"
 const Homepage=()=>{
+    const navigate=useNavigate()
+    
     return(
         <>
         <div className="home">
@@ -14,8 +16,8 @@ const Homepage=()=>{
             </p>
             <div className="buttons"> 
                 <div className= "btn">
-                    <div className= "btn-primary">
-                            <span className="btn-text">WHAT WE DO </span>
+                    <div className= "btn-primary"  onClick={()=>navigate("/service")}>
+                            <span className="btn-text" >WHAT WE DO </span>
                             <span className="home-arrow">&#8594;</span>
                     </div>  
                     <div className="btn-viewwork">
