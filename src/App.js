@@ -10,6 +10,8 @@ import Customers from "./components/customers/Customers";
 import Publications from "./components/Publications/Publications";
 import Footer from "./components/footer/Footer"
 import Service from "./components/Service-home/Service";
+import Portfolio from "./components/portfolio/Portfolio"
+import Teammeet from "./components/team-meat/Team-meet";
 function App() {
   const [anchorEl, setAnchorEl] = useState(null);
   
@@ -29,13 +31,28 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/service" element={<Service/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
+          </Routes>
+        <Routes>
+          <Route path="/" element={<Studio/>}/>
         </Routes>
-        <Studio/>
-        <Ideas/>
-        <Team/>
-        <Customers/>
-        <Publications/>
-        <Footer/>
+        <Routes>
+          <Route path="/" element={<Ideas/>}/>
+          <Route path="/service" element={<Service/>}/>
+        </Routes>
+        <Routes>
+            <Route path="/" element={<Team/>}/>
+            <Route path="/teammeet" element={<Teammeet/>}/>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Customers/>}/>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Publications/>}/>
+        </Routes>  
+        <Routes>
+          <Route path="/" element={<Footer/>}/>
+        </Routes>
       </div>}
     </div>
   );

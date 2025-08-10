@@ -1,7 +1,9 @@
 import React from "react"
 import "./Team.css"
+import {useNavigate} from "react-router-dom"
 
 const Team=()=>{
+    const navigate=useNavigate();
     return (
         <>
         <div className="team">
@@ -9,8 +11,8 @@ const Team=()=>{
                 <h2><span>Meet</span><br/>Our Team</h2>
                 <p className="team-p">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
                 <p className="team-p">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
-                <button className="btn-read-more">READ MORE</button>
-                <div className="team-circle">
+                <button className="btn-read-more" onClick={()=>navigate("/teammeet")}>READ MORE</button>
+                <div className="team-circle" onClick={()=>navigate("/teammeet")}>
                     <div className="team-arrow">&#8594;</div>
                 </div>
                 <p className="team-result">We <span className="team-bold">delivering</span> exceptional <span className="team-bold">results.</span></p>

@@ -20,7 +20,7 @@ const Homepage=()=>{
                             <span className="btn-text" >WHAT WE DO </span>
                             <span className="home-arrow">&#8594;</span>
                     </div>  
-                    <div className="btn-viewwork">
+                    <div className="btn-viewwork" onClick={()=>navigate("/portfolio")}>
                         <span className="btn-secondary-text">VIEW WORKS</span>
                         <span className="view-arrow">&#8594;</span>
                     </div>   

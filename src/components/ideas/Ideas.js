@@ -1,7 +1,9 @@
 import React from "react"
 import "./Ideas.css"
+import { useNavigate } from "react-router-dom"
 
 const Ideas=()=>{
+    const navigate=useNavigate()
     return (
         <>
         <div className="bussiness-idea">
@@ -13,8 +15,8 @@ const Ideas=()=>{
             </div>
             <div className="bussiness">
                 <h2><span className="buss">For Your</span> Business</h2>
-                <button className="btn-yellow">WHAT WE DO</button>
-                <div className="ideas-circle">
+                <button className="btn-yellow" onClick={()=>navigate("/service")}>WHAT WE DO</button>
+                <div className="ideas-circle" onClick={()=>navigate("/service")}>
                     <div className="ideas-arrow">&#8594;</div>
                 </div>
             </div>

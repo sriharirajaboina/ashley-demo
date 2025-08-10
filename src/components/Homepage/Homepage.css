@@ -6,7 +6,7 @@
     background: #000000;
     text-align: left;
     display: flex;
-    /* overflow-x: hidden; */
+    
 }
 .home-one {
     font-size: thin;
@@ -92,6 +92,9 @@
     align-items: center;
     justify-content: center;
     margin:20px;
+    cursor: pointer;
+}
+.btn-text{
     cursor: pointer;
 }
 .btn-scroll {
@@ -192,6 +195,9 @@
     color:#000000;
     font-weight: bold;
 
+}
+.btn-text{
+    cursor: pointer;
 }
 .home-arrow{
     width:50px;
