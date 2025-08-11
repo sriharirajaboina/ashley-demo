@@ -8,29 +8,28 @@
     display: flex;
     
 }
-.home-one {
-    font-size: thin;
-}
-
 .highlight {
-    font-size: 100px;
+    font-size: 5vw;
+    font-weight: bold;
 }
 
 .header {
-    font-size: 60px;
-   font-weight: 100px;
-    line-height: 1.6;
+    display:inline-block;
+    font-size:5vw;
+    line-height: 1.2;
     margin-left:300px;
+    margin-top:130px;
+    margin-bottom: 70px;
+    letter-spacing: 3px;;
 }
-
-
 .description {
     color: #808080;
     font-size: 20px;
+    font-weight: bold;
     width: 40%;
     line-height: 2.0;
     margin-left:300px;
-    margin-bottom:50px;
+    margin-bottom:80px;
 }
 
 .buttons {
@@ -75,24 +74,28 @@
 }
 .btn-viewwork{
     display:flex;
-    gap:10px;
+    justify-content: center;
 }
 .btn-secondary-text{
-    margin:30px;
+    margin:30px 0;
     font-weight: bold;
     cursor: pointer;
+    margin-left:30px;
 }
 .view-arrow{
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     border:2px solid #000000;
-    background-color: #808080;
+    background-color:rgba(128, 128, 128, 0.4);
     border-radius: 50%;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin:20px;
+    margin-top:10px;
     cursor: pointer;
+    margin-left:20px;
+    
+    font-size:30px;
 }
 .btn-text{
     cursor: pointer;
@@ -106,7 +109,6 @@
    display:flex;
    align-items: center;
    justify-content: center;
-   margin-right: 250px;
    cursor: pointer;
    margin-bottom: 150px;;
    

@@ -12,22 +12,22 @@ import Footer from "./components/footer/Footer"
 import Service from "./components/Service-home/Service";
 import Portfolio from "./components/portfolio/Portfolio"
 import Teammeet from "./components/team-meat/Team-meet";
+import Menu from "./components/menu/menu";
 function App() {
-  const [anchorEl, setAnchorEl] = useState(null);
-  
-    const handleMenuClick = (event) => {
-      setAnchorEl(event.currentTarget);
-      
-    };
-  
-    const handleClose = () => {
-      setAnchorEl(null);
-    };
+  const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu=()=>{
+        setMenuOpen(false)
+    }
+    const handleClickMenu=(event)=>{
+        setMenuOpen(event.currentTarget)
+    }
   return (
     <div className="App">
-      <Navbar anchorEl={anchorEl} handleMenuClick={handleMenuClick} 
-      handleClose ={handleClose}/>
-      {!anchorEl && <div style={{ marginTop: "70px" }}>
+      <Navbar/>
+      <Menu menuOpen={menuOpen} toggleMenu={toggleMenu}
+      handleClickMenu={handleClickMenu} 
+      />
+      {!menuOpen && <div style={{ marginTop: "70px" }}>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/service" element={<Service/>}/>

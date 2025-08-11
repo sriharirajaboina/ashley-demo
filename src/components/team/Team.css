@@ -77,35 +77,30 @@
 }
 .team-img{
     display:flex;
-    gap:20px;
     justify-content: start;
 }
 .anna {
-    width: 80%;
+    width: 70%;
     padding-top: 20px;
     margin-top: 10px;
-    
 }
 
 .oscar {
-    width: 80%;
+    width: 70%;
     padding-top: 20px; 
 }
-
 .emma {
-    width: 80%;
-    padding-top: 60px;
+    width: 70%;
+    padding-top: 60px;  
 }
-
 .lisa {
-    width: 80%;
+    width: 70%;
     padding-top: 60px;
     margin-top: 10px;
    
 }
  .art-director,.frontend,.founder,.Ui-design{
         position:relative;
-        
     }
     .content{
         width:80%;
@@ -114,7 +109,6 @@
         top:0;
         left:0;
         display:flex;
-        background-color: #01020017;
         align-items: center;
         justify-content: center;
         flex-direction:column;
@@ -135,6 +129,7 @@
     }
     .anna:hover{
         background:#808080;
+        object-fit: cover;
     }
     .content:hover{
         opacity: 1;

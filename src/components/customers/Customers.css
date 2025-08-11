@@ -2,9 +2,7 @@
 .customer-voice {
     background: #808080;
     width:100%;
-    height:130vh;
-    /* overflow-x: hidden; */
-    
+    height:150vh;
 }
 .cv-head {
     display:inline-block;
@@ -16,7 +14,6 @@
     font-size:20px;
     color:#ffffff;
     margin-bottom:100px;
-
 }
 .cv-bolds{
     font-size: 80px;
@@ -34,15 +31,46 @@
 }
 .customer-details{
     display:flex;
+    gap:30px;
     padding:0 25%;
+    text-align:center;
+    align-items: center;
 }
 .customer-img{
     width:90px;
     height: 90px;
     border-radius: 50%;
     margin-bottom: 30px;
+    object-fit: cover; 
     cursor: pointer;
 }
+.customer-detail img:hover{
+  width: 100px;         
+  height: 100px;          
+  object-fit: cover;     
+  border-radius: 50%;     
+  border: 8px solid #ffa500; 
+  padding:5px;
+}
+.person-detail{
+ width: 100px;         
+  height: 100px;          
+  object-fit: cover;     
+  border-radius: 50%;     
+  text-align: center; 
+}
+.person1{
+    text-align:center;
+}
+/* .person2,.person3,.person4,
+.person5,.person6,.person7{
+    visibility: hidden;
+}
+.person2:hover p,.person3:hover h5 p,
+.person4:hover h5 p,.person5:hover h5 p,
+.person6:hover h5 p,.person7:hover h5 p{
+   visibility: visible;
+} */
 }
 @media screen and (max-width:1024px){
     .customer-voice{

@@ -7,8 +7,10 @@ const Ideas=()=>{
     return (
         <>
         <div className="bussiness-idea">
+            <div className="buss-header">
             <span className="buss-brand">Professional Focused on helping your brand</span><br/>
             <span className="buss-head"> grow and move forward.</span>
+            </div>
             <div className="ideas">
                 <img src="images/cont3-img1.jpg" alt="images" className="ideas-img"/>
                 <h2><span className="buss-bold">Unique</span> ideas</h2>

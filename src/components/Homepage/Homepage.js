@@ -8,8 +8,8 @@ const Homepage=()=>{
         <>
         <div className="home">
            <div className="home-one">
-            <h6 className="header" >
-                <span className="highlight">Designing</span> a Better<br/><span className="highlight"> World</span> Today</h6>
+            <span className="header" >
+                <span className="highlight">Designing</span> a Better<br/><span className="highlight"> World</span> Today</span>
             <p className="description" >Welcome to our world of endless imagination and boundless creativity.
                 Together,let's embark on a remarkable journey where dreams become tangible
                 realities
@@ -26,13 +26,14 @@ const Homepage=()=>{
                     </div>   
                 </div>
                 <div className="btn-scroll">
+                    {/* <div class="circle-text">
+                        <span>SCROLL DOWN • SCROLL DOWN • SCROLL DOWN •</span>
+                    </div> */}
                     <div className="inner-circle">
                         <div className="scroll-arrow">&#8595;</div>
                     </div>
-    
                 </div>
             </div>
-            
             </div>
         </div>
         </>

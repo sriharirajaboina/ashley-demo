@@ -8,6 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 20px;
   z-index: 1000;
+}
+.logo {
+  position:fixed;
+  font-size: 60px;
+  top:70px;
+  margin-left:60px;
+  z-index:1000;
 }
 }

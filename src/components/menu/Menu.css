@@ -1,0 +1,22 @@
+@media screen and (min-width:1025px){
+.icon {
+  position:fixed;
+  top:70px;
+  right:60px;
+  font-size: 46px;
+  cursor: pointer;
+  z-index:1000;
+}
+.menu {
+  width: 80%;
+  height: 80%;
+  padding: 50px;
+  background-color: white;
+  margin: 80px auto;
+  border: 2px solid black;
+}
+.menu h2 {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+}

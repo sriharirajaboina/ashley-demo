@@ -5,6 +5,7 @@ const Studio=()=>{
     return (
         <>
         <div className="studio">
+           
         <div className="left-section">
             <div className="about-studio">
                 <h3 className="stu-header"><span className="stu-head1">Discover<br/> Our </span><span classsName="stu-head">Studio</span></h3>
@@ -14,10 +15,13 @@ const Studio=()=>{
             <div className="about-image">
                 <div className="stu-image">
                 <img src="images/cont2-img1.jpg" alt="image" className="profile-img"/>
-                <div className="pause">&#9208;</div>
+                    <div className="pause-circle">
+                        <div className="pause">&#9208;</div>
+                    </div>
+                
                 </div>
                 <div className="img-det">
-                <span className="bold">Passionately Creating </span><span className="light"> Dersign Wonders:</span>
+                <span className="bold">Passionately Creating </span><span className="light"> Dersign Wonders:</span><br/>
                 <span className="bold">Unleashing </span><span className="light"> Boundless Creativity</span>
                 </div>
             </div>

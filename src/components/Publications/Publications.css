@@ -66,6 +66,8 @@
 
     .pub-description-d {
         color: #808080;
+        width:70%;
+        font-size:20px;
         margin-bottom: 40px;
         margin-left: 250px;
     }
@@ -81,7 +83,10 @@
         font-size: 25px;
 
     }
-
+    .pub-description-c{
+        width:70%;
+        font-size:20px;
+    }
     .pub-tech-c {
         color: #ffa500;
 

@@ -1,16 +1,12 @@
-import React from  "react"
+import React from "react"
+import Navbar from "../Navbar/Navbar"
 
-import {Outlet,Link} from "react-router-dom"
+import {Outlet} from "react-router-dom"
 
-const Layout=()=>{
+const Layout =()=>{
     return (
         <>
-        <div>
-            <Link to="/">Homepage</Link>
-            <Link to="/service">Service</Link>
-        </div>
-
-        <hr/>
+        <Navbar/>
         <Outlet/>
         </>
     )
