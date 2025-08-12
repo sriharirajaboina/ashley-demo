@@ -62,15 +62,6 @@
 .person1{
     text-align:center;
 }
-/* .person2,.person3,.person4,
-.person5,.person6,.person7{
-    visibility: hidden;
-}
-.person2:hover p,.person3:hover h5 p,
-.person4:hover h5 p,.person5:hover h5 p,
-.person6:hover h5 p,.person7:hover h5 p{
-   visibility: visible;
-} */
 }
 @media screen and (max-width:1024px){
     .customer-voice{

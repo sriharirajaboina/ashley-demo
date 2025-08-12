@@ -18,7 +18,6 @@ const Studio=()=>{
                     <div className="pause-circle">
                         <div className="pause">&#9208;</div>
                     </div>
-                
                 </div>
                 <div className="img-det">
                 <span className="bold">Passionately Creating </span><span className="light"> Dersign Wonders:</span><br/>

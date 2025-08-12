@@ -14,7 +14,6 @@
     margin-bottom: 50px;
     
 }
-
 .team-p {
     color: #808080;
     font-size: 20px;
@@ -78,24 +77,25 @@
 .team-img{
     display:flex;
     justify-content: start;
+   margin-bottom: 150px;;
 }
+
 .anna {
     width: 70%;
-    padding-top: 20px;
-    margin-top: 10px;
+    padding-top:130px;
 }
 
 .oscar {
     width: 70%;
-    padding-top: 20px; 
+    padding-top: 50px; 
 }
 .emma {
     width: 70%;
-    padding-top: 60px;  
+    padding-top: 200px;  
 }
 .lisa {
     width: 70%;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-top: 10px;
    
 }
@@ -119,7 +119,7 @@
     .content h2{
         font-size:22px;
         color:#ffffff;
-        padding-top:60%;
+        padding-top:100%;
         margin-bottom: 10px;
     }
     .content p{

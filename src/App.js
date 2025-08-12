@@ -1,6 +1,6 @@
-import React,{useState} from "react";
+import React,{useState,useRef} from "react";
 import './App.css';
-import {Routes,Route} from "react-router-dom";
+import {Routes,Route,useLocation} from "react-router-dom";
 import Navbar from './components/Navbar/Navbar'
 import Homepage from "./components/Homepage/Homepage";
 import Studio from "./components/studio/Studio"
@@ -15,11 +15,15 @@ import Teammeet from "./components/team-meat/Team-meet";
 import Menu from "./components/menu/menu";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const nextpageRef=useRef(null)
     const toggleMenu=()=>{
         setMenuOpen(false)
     }
     const handleClickMenu=(event)=>{
-        setMenuOpen(event.currentTarget)
+        setMenuOpen(true)
+    }
+    const scrollToTeam=()=>{
+        nextpageRef.current?.scrollIntoView({behavior: "smooth"})
     }
   return (
     <div className="App">
@@ -29,10 +33,13 @@ function App() {
       />
       {!menuOpen && <div style={{ marginTop: "70px" }}>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
+          <Route path="/" element={<Homepage scrollToTeam={scrollToTeam}/>}/>
           <Route path="/service" element={<Service/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
           </Routes>
+          <div ref={nextpageRef}>
+                <Studio/>
+          </div>
         <Routes>
           <Route path="/" element={<Studio/>}/>
         </Routes>

@@ -8,8 +8,8 @@ const Ideas=()=>{
         <>
         <div className="bussiness-idea">
             <div className="buss-header">
-            <span className="buss-brand">Professional Focused on helping your brand</span><br/>
-            <span className="buss-head"> grow and move forward.</span>
+                <span className="buss-brand">Professional Focused on helping your brand</span><br/>
+                <span className="buss-head"> grow and move forward.</span>
             </div>
             <div className="ideas">
                 <img src="images/cont3-img1.jpg" alt="images" className="ideas-img"/>
