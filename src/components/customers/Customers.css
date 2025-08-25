@@ -1,68 +1,87 @@
-@media screen and (min-width:1025px){
-.customer-voice {
-    background: #808080;
-    width:100%;
-    height:150vh;
+/* @media screen and (min-width:1025px){ */
+.customer-voice{
+    width:100vw;
+    height:100%;
+    color:#00000080;
+    background-color: #F2F2F2;
+    font-size:16px;
+    font-family:"Outfit", sans-serif;
+    padding:120px 30px;
 }
-.cv-head {
+.customer-voice-1{
+    margin:0 164px;
+}
+.cv-head{
+    width:945px;
+    height:48px;
+    color:#00000080;
+    font-size:16px;
+    margin:0 0 60px;
+    display:flex;
+    align-items:right;
+    justify-content: right;
+}
+.cv-lights{
     display:inline-block;
-    margin-top:120px;
-    text-align: right;
-    align-content: flex-end;
-    margin-left:50%;
-    font-weight:bold;
-    font-size:20px;
-    color:#ffffff;
-    margin-bottom:100px;
+    width:1140px;
+    height:163px;
+    color:#000000;
+    text-align: center;
+    font-size:68px;
+    margin:0 0 60px;
 }
 .cv-bolds{
-    font-size: 80px;
     font-weight: bold;
-    margin-left:30%;
-}
-
-.cv-lights{
-    font-size: 80px;
-    font-weight: normal;
-    padding-left: center;
-}
-.cv-header{
-    margin-bottom: 150px;;
 }
 .customer-details{
     display:flex;
-    gap:30px;
-    padding:0 25%;
-    text-align:center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:1140px;
+    height:140px;
+    margin:0 0 60px;
+}
+.img-customer1{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    background: #ff9800;
+    padding:10px;
+}
+.img-customer2{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    background: #ff9800;
+    margin:30px 0 0;
+    padding:10px;
 }
 .customer-img{
     width:90px;
-    height: 90px;
+    height:90px;
+    background-color:#FF0000;
     border-radius: 50%;
-    margin-bottom: 30px;
-    object-fit: cover; 
-    cursor: pointer;
-}
-.customer-detail img:hover{
-  width: 100px;         
-  height: 100px;          
-  object-fit: cover;     
-  border-radius: 50%;     
-  border: 8px solid #ffa500; 
-  padding:5px;
-}
-.person-detail{
- width: 100px;         
-  height: 100px;          
-  object-fit: cover;     
-  border-radius: 50%;     
-  text-align: center; 
 }
 .person1{
-    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width:1170px;
+    /* height:307px; */
+    margin:0 -15px;
 }
+.person1 h5{
+    text-align: center;
+    width:750px;
+    height:30px;
+    font-size:20px;
+    color:#000000;
+    font-weight:bold;
+    margin:0 0 10px;
 }
+/* } */
 @media screen and (max-width:1024px){
     .customer-voice{
         background-color:#808080;

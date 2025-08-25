@@ -8,7 +8,7 @@ const Service=()=>{
         <div className="service-page">
             <div className="top-section">
                 <div className="service-details">
-                    <div classsName="service-titles">
+                    <div className="service-titles">
                         <h2 className="service-title">HOMEPAGE / <span className="service-header">SERVICE</span></h2>
                         <h4 className="service-head"><span className="service-bold">This is</span> what <span className="service-bold"> we do</span>  best</h4>
                         <div className="service-btn">

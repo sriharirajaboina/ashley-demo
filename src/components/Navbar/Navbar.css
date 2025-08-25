@@ -1,13 +1,37 @@
-@media screen and (min-width:1025px){
-.navbar {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
+/* @media screen and (min-width:1025px){ */
+  .navbar {
+  position: fixed;       
+  top: 70px;
+  left: 80px;
+  right: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
+  z-index: 1000;       
 }
+.logo {
+  width:42px;
+  height:42px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 100%;
 }
+.icon {
+  width:28px;
+  height:28px;
+  font-size: 48px;
+  cursor: pointer;
+  margin-right:16px;
+}
+.menu {
+  width: 80%;
+  height: 80%;
+  padding: 50px;
+  background-color: white;
+  border: 2px solid black;
+}
+.menu h2 {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/* } */

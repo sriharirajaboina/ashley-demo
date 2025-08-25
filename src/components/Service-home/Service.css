@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px){
+/* @media screen and (max-width:1024px){ */
     .service-page{
         display:flex;
         flex-direction:column;
@@ -164,7 +164,7 @@
         margin-bottom:150px;
         cursor: pointer;
     }
-}
+/* } */
 @media screen and (min-width:1025px){
     .service-page{
         background:#000000;

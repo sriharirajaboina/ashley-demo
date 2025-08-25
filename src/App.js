@@ -12,7 +12,7 @@ import Footer from "./components/footer/Footer"
 import Service from "./components/Service-home/Service";
 import Portfolio from "./components/portfolio/Portfolio"
 import Teammeet from "./components/team-meat/Team-meet";
-import Menu from "./components/menu/menu";
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const nextpageRef=useRef(null)
@@ -28,18 +28,12 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Menu menuOpen={menuOpen} toggleMenu={toggleMenu}
-      handleClickMenu={handleClickMenu} 
-      />
-      {!menuOpen && <div style={{ marginTop: "70px" }}>
+      {!menuOpen && <div>
         <Routes>
           <Route path="/" element={<Homepage scrollToTeam={scrollToTeam}/>}/>
           <Route path="/service" element={<Service/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
           </Routes>
-          <div ref={nextpageRef}>
-                <Studio/>
-          </div>
         <Routes>
           <Route path="/" element={<Studio/>}/>
         </Routes>
