@@ -1,89 +1,73 @@
-/* @media screen and (min-width:1025px){ */
+body{
+   font-family:"Outfit", sans-serif; 
+   margin:0;
+   padding:0;
+}
 .bussiness-idea{
     background-color: #000000;
     color:#00000089;
-    width: 100vw;
+    width: 100%;
     height: 100%;
-    font-family:"Outfit", sans-serif;
-    /* margin:0px 164px; */
-    padding:120px 30px 0px;
+   
 }
 .bussiness-idea_1 {
-margin-left: 164px;
-margin-right: 164px;
+    max-width:1140px;
+    margin:0 auto;
+     padding:120px 30px 0px;
 }
 .buss-top{
-    width:1140px;
-    height:329px;
     margin:0 0 120px 0px;
 }
 .buss-header{
-    width:975;
-    height:108;
    color:#00000080;
    font-size:16px;
    padding:0px 15px;
 }
 .buss-brand{
     display:inline-block;
-    width:945px;
-    height:48px;
     color:#FFFFFF66;
     font-size:16px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     margin:0px 0px 60px;
 }
 .ideas{
-    width:1140px;
-    height:103px;
-    color:#00000080;
-    font-size:16px;
     display:flex;
     align-items: center;
     justify-content: center;
     margin:0px 0px 15px;
 }
 .ideas-img{
-    flex:0 0 201px;
     width:250px;
     height:80px;
     border-radius: 100px;
    margin:0px 30px 0px 0px;
 }
 .idea-head{
-    flex:0 0 201px;
-    width:487px;
-    height:103px;
     color:#FFFFFFE6;
-    font-size:86px;
+    font-size:clamp(32px,6vw,82px);
     display:flex;
     gap:10px;
 }
-.buss-bold {
-  display: inline-block;     
-  width: 203px;                
-  height: 108px;                
-  color: #FFFFFFE6; 
-  font-size: 86px;                         
+.buss-bold {               
+  color: #FFFFFFE6;                         
 }
 .bussiness{
-    width:1140px;
-    height:103px;
     color:#00000080;
     font-size:16px;
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 .bus-head{
     color:#FFFFFFE6;
-    font-size:86px;
+    font-size:clamp(32px,6vw,82px);
     display:flex;
     align-items: center;
     justify-content: center;
 }
 .buss-btn{
-    width:166px;
+    max-width: 250px;
     height:70px;
     background-color: #ffa500;
     border-radius: 100px;
@@ -92,18 +76,18 @@ margin-right: 164px;
     justify-content: center;
     padding:0 15px 0 50px;
     margin:0 0 0 30px;
+    gap:10px;
+    cursor:pointer;
 }
 .btn-yellow{
-    width:96px;
-    height:24px;
     font-size:12px;  
     background-color: #ffa500;
     border: none; 
     font-weight:500px;
 }
 .ideas-circle{
-    width:40px;
-    height:35px;
+    width:25px;
+    height:25px;
     background:#000000;
     border-radius: 50%;
     margin:0 0 0 30px;
@@ -113,33 +97,25 @@ margin-right: 164px;
     justify-content: center;
 }
 .ideas-arrow{
-    color:#ffa500;
-   
+    color:#ffa500; 
 }
 .buss-designs{
     display:flex;
     color:#FFFFFF;
-    width:55%;
-    height:358px;
     cursor:pointer;
 }
 .brand-des,.web-design,.advertising,.consulting{
-    flex:1;
-    height:358;
     padding:60px 30px;
     border:1px solid #808080;
     border-bottom:none;
+    transition: all 0.3s ease;
 }
 .buss-designs h2{
-    width:224px;
-    height:60px;
     color:#FFFFFFE6;
     font-size:20px;
     margin:0 0 30px;
 }
 .buss-designs p{
-    width:224px;
-    height:72px;
     font-size:16px;
     margin:0 0 30px;
     color:#FFFFFF66;
@@ -157,208 +133,90 @@ margin-right: 164px;
     display:flex;
     align-items: center;
     justify-content: center;
+  
 }
 .buss-arrow{
-    width:4px;
-    height:4px;
     color:#000000;
+    font-size:14px;
      display:flex;
     align-items: center;
     justify-content: center;
 }
 .buss-circle:hover{
-    width: 50px;
-    height:50px;
+    width: 40px;
+    height:40px;
     background-color:#ffa500;
     border-radius:50%;
      font-size:20px;
     display:flex;
     align-items: center;
     justify-content: center;
+      transition: all 0.3s ease;
 }
-.buss-arrow{
-    width:15px;
-    height:15px;
-    color:#000000;
-     display:flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 992px) {
+  .idea-head,
+  .bus-head {
+    font-size: clamp(16px, 7vw, 86px);
+  }
+
+  .buss-btn {
+    width:100%;
+    max-width:170px;
+    height:40px;
+    margin-left: 10px;
+    padding: 10px 20px;
+  }
+
 }
-/* } */
-@media screen and (max-width:1024px) {
-    .bussiness-idea {
-    background-color: #000000;
-    color: #FFFFFF;
-    margin-bottom: 50px;
-    padding: 100px;
-    text-align: center;
-    margin-top:60px;
-} 
-    .buss-head,.buss-brand {
-        color: #808080;
-        margin-left:40%;
-        text-align: center;
-        align-items: center;
-    }
-    .ideas{
-        text-align:center;
-        margin-top:-500px;
-    }
-    .buss-bold{
-        font-size: 60px;
-    
-        
-    }
-    .bussiness h2{
-        font-size:50px;
-    }
-    .ideas-img {
-        visibility: hidden;
-    }
-    .bussiness{
-        display:block;
-        text-align: center;
-        
-    }
-    .btn-yellow {
-    width: 300px;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #ffa500;
-    border-radius: 50px;
-    margin-top: 60px;
-    display:felx;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    margin-bottom: 100px;;
-}
-.ideas-circle{
-    width:60px;
-    height:60px;
-    border:1px solid #000000;
-    background-color:#000000;
-    border-radius: 50%;
+@media (max-width: 720px) {
+  .bussiness-idea {
+    padding: 60px 15px 30px;
+  }
+  .buss-header{
     display:flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    margin-top:-165px;
-    margin-left:60%;
-    margin-bottom: 150px;
-    
-}
-.ideas-arrow{
-    width:50px;
+  }
+  .idea-head,
+  .bus-head {
+    font-size: clamp(24px, 8vw, 36px);
+  }
+  .ideas-img{
+    display:none;
+  }
+  .bussiness{
+    display:flex;
+    flex-direction:column;
+  }
+  .buss-btn {
+    width:100%;
+    max-width:170px;
     height:50px;
-    border:1px solid #000000;
-    background-color: #000000;
-    border-radius: 50%;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+
+  .brand-des,
+  .web-design,
+  .advertising,
+  .consulting {
+    flex: 1 1 100%; 
+  }
+
+  .buss-designs {
     display:flex;
-    align-items: center;
-    justify-content: center;;
-    font-size:30px; 
-    color:#ffa500
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .buss-designs h2 {
+    font-size: 18px;
+  }
+
+  .buss-designs p {
+    font-size: 13px;
+  }
 }
+   
 
-    .buss-designs {
-        display: flex;
-        flex-direction: column;
-        border:1px solid #808080;
-        
-       
-    }
-
-    .brand-des {
-        padding-top: 20px;
-        padding-bottom: 50px;
-        border:1px solid #808080;
-        text-align: left;
-        padding-left: 30px;;
-    }
     
-
-    .web-design {
-        padding-top: 20px;
-        padding-bottom: 50px;
-         border:1px solid #808080;
-         text-align: left;
-        padding-left: 30px;;
-    }
-
-    .advertising {
-        padding-top: 20px;
-        padding-bottom: 50px;
-         border:1px solid #808080;
-         text-align: left;
-        padding-left: 30px;;
-    }
-
-    .consulting {
-        padding-top: 20px;
-        text-align: left;
-        padding-left: 30px;;
-       
-    }
-    .brand-circle{
-        width:50px;
-        height:50px;
-        border:2px solid #000000;
-        background-color: #ffa500;
-        border-radius: 50%;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .brand-arrow{
-        font-size:30px;
-        color:#000000;
-        font-weight: bold;
-    }
-    .web-circle{
-        width:50px;
-        height:50px;
-        border:2px solid #000000;
-        background-color: #ffa500;
-        border-radius: 50%;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .web-arrow{
-        font-size:30px;
-        color:#000000;
-        font-weight: bold;
-    }
-    .adv-circle{
-        width:50px;
-        height:50px;
-        border:2px solid #000000;
-        background-color: #ffa500;
-        border-radius: 50%;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .adv-arrow{
-        font-size:30px;
-        color:#000000;
-        font-weight: bold;
-    }
-    .con-circle{
-        width:50px;
-        height:50px;
-        border:2px solid #000000;
-        background-color:#ffa500;
-        border-radius: 50%;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .con-arrow{
-        font-size:30px;
-        color:#000000;
-        font-weight: bold;
-    }
-}

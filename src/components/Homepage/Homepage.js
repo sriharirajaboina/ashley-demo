@@ -12,7 +12,7 @@ const Homepage=({scrollToTeam})=>{
                   {/* <Navbar/> */}
 
                     <h1 className="header" >Designing
-                    <span className="highlight"> a Better</span> 
+                    <span className="highlight"> a Better </span> 
                     <br/> 
                     World
                     <span className="highlight"> Today</span> 

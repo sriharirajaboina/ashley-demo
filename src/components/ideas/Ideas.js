@@ -34,29 +34,29 @@ const Ideas=()=>{
                     <h2>Branding and Identity Design</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                     <div className="buss-circle">
-                    <div className="buss-arrow">&#8594;</div>
-                </div>
+                        <div className="buss-arrow">&#8594;</div>
+                    </div>
                 </div>
                 <div className="web-design">
                     <h2>Website Design and Development</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                     <div className="buss-circle">
-                    <div className="buss-arrow">&#8594;</div>
-                </div>
+                        <div className="buss-arrow">&#8594;</div>
+                    </div>
                 </div>
                 <div className="advertising">
                     <h2>Advertising and Marketing Campaigns</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                     <div className="buss-circle">
-                    <div className="buss-arrow">&#8594;</div>
-                </div>
+                        <div className="buss-arrow">&#8594;</div>
+                    </div>
                 </div>
                 <div className="consulting">
                     <h2>Creative Consulting and Development</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>
                     <div className="buss-circle">
-                    <div className="buss-arrow">&#8594;</div>
-                </div>
+                        <div className="buss-arrow">&#8594;</div>
+                    </div>
                 </div>
             </div>
         </div>

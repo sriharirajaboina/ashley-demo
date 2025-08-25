@@ -1,53 +1,49 @@
-/* @media screen and (min-width:1025px) { */
      body{
         font-family:"Outfit", sans-serif;
+        margin:0;
+        padding:0;
     }
     .footer{
     background-color: #000000;
     color: #ffffff;
-    width: 100vw;
+    width: 100%;
     height: 100%;
-    font-family: "Outfit", sans-serif;
-    
     }
     .footer-content{
         display:flex;
         flex-direction:column;
-        margin:0 164px;
-        padding: 120px 30px 0px;
+        max-width:1140px;
+        margin:0 auto;
+        padding: 125px 30px 0px;
     }
     .footer-top{
         display:flex;
+        flex-wrap:wrap;
         justify-content: space-between;
-        width:1170px;
-        height:360px;
         color:#00000080;
         font-size:16px;
         margin:0 -15px;
     }
     .footer-left{
-        width:360px;
-        height:300px;
+        max-width:360px;
         font-size:16px;
         margin:0 0 60px;
         padding:0 15px;
     }
     .footer-left h2{
-        width:360px;
-        height:42px;
         color:#ffffffE6;
         font-size:42px;
         margin:0 0 30px;
     }
     .footer-left p{
-        width:360px;
-        height:24px;
+       min-width:200px;
         color:#ffffff66;
         font-size:16px;
         margin:0 0 30px;
     }
     .email{
-        width:270px;
+        width:100%;
+        max-width:270px;
         height:70px;
         background-color:#ffffff1A;
         border-radius: 100px;
@@ -86,10 +82,8 @@
         height:11px;
     }
     .footer-center{
-        width:311px;
-        height:360px;
         color:#ffffff;
-        
+        min-width:200px;
         font-size:16px;
        padding:0 15px;
     }
@@ -98,25 +92,17 @@
         margin-bottom: 25px;
        }   
     .active{
-        width:311px;
-        height:24px;
         color:#ff9800;
         font-size:28px;
-        font-weight: 500;
-       
+        font-weight: 500; 
     }
-  
     .active-folio,.active-service,
     .active-contact,.active-blog{
-        width:311px;
-        height:24px;
         color:#ffffff;
         font-size:28px;
         
     }
     .footer-right{
-        width:213px;
-        height:360px;
         padding:0 15px;
     }
      .footer-right ul li{
@@ -126,10 +112,10 @@
         margin-bottom:25px;
      }
      .footer-bottom{
-        width:1170px;
-        height:165px;
+        min-width:200px;
         font-size:16px;
         display:flex;
+        align-items: center;
         justify-content: space-between;
         margin:0 -15px;
      }
@@ -140,8 +126,6 @@
         color:#ffffff66;
      }
      .footer-address{
-        width:213px;
-        height:105px;
         font-size:16px;
         margin:0 0 60px;
         padding:0 15px;
@@ -152,135 +136,73 @@
         margin:0 0 30px;
      }
      .footer-address p{
-        width:213px;
-        height:48px;
         color:#ffffff66;
         font-size:16px;
      }
-/* } */
 
-@media screen and (max-width:1024px) {
-    footer {
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        background-color: #000000;
-        color: #FFFFFF;
-       
+@media (max-width: 992px) {
+  .footer-top {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
-    }
+  .footer-bottom {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+  }
 
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: left;
-        margin-left: 50px;
-        padding-top: 100px;
-    }
+  .footer-left h2 {
+    font-size: 28px;
+  }
 
-    .footer-left h2 {
-        font-size: 50px;
-        margin-bottom: 50px;
-    }
+  .active,
+  .active-folio,
+  .active-service,
+  .active-contact,
+  .active-blog {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .footer {
+    padding: 40px 15px 15px;
+  }
+   .footer-top {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .footer-left p {
-        font-size: 20px;
-        color: #808080;
-        margin-bottom: 40px;
-    }
+  .footer-bottom {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 
-    .email input {
-       width:70%;
-        padding: 40px;
-        background: transparent;
-        border-radius: 50px;
-        cursor: pointer;
-        border:none;
-        
-    }
+  .footer-left h2 {
+    font-size: 24px;
+  }
 
-    .footer-center ul {
-        list-style: none;
-        font-size: 30px;
-        font-weight: bold;
-        line-height: 2;
-        cursor:pointer;
-    }
+  .footer-left p,
+  .footer-right ul li,
+  .footer-center ul li {
+    font-size: 14px;
+  }
 
-    .footer-center .active {
-        color: #ffa500;
-    }
+  .email {
+    min-width: 50%;
+    height: 70px;
+  }
 
-    .footer-center,
-    .footer-right {
-        flex: 1;
-        min-width: 200px;
-    }
-
-    .footer-right ul {
-        list-style: none;
-        font-size: 20px;
-        color: #808080;
-        margin-top: 50px;
-        line-height: 2.5;
-
-    }
-
-    .footer-address {
-        display: flex;
-        flex: 1;
-        color: #aaa;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        line-height: 1.5;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-
-    .footer-address>div {
-        width: 45%;
-        font-size: 15px;
-        flex: 1 1 100%;
-    }
-
-    .footer-address br {
-        display: none;
-    }
-    .footer-circle{
-        display:inline-block;
-        width:50px;
-        height:50px;
-        margin-left:-70px;
-        background-color: #ffa500;
-        border-radius: 50%;
-        align-items: center;
-        justify-content: center;
-        color:#000000;
-        border:none;
-    }
-    .footer-arrow{
-        font-size:30px;
-        text-align: center;;
-    }
-    .email input:hover{
-        cursor: pointer;
-        background-color: #FFFFFF;
-    }
-    .active-folio{
-        background-color: #ffa500;
-        cursor:pointer;
-    }
-   .active-service:hover{
-        color:#ffa500;
-        cursor:pointer;
-   }
-   .active-contact:hover{
-    color:#ffa500;
-    cursor:pointer;
-   }
-   .active-blog:hover{
-    color:#ffa500;
-    cursor:pointer;
-   }
+  .footer-circle {
+    width: 28px;
+    height: 28px;
+    font-size: 10px;
+  }
 }
