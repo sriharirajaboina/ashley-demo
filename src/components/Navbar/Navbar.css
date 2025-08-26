@@ -1,27 +1,23 @@
-/* @media screen and (min-width:1025px){ */
   .navbar {
-  position: fixed;       
-  top: 70px;
-  left: 80px;
-  right: 60px;
+  position: fixed;  
+  max-width:1520px;
+  width:100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;       
+  z-index: 1000;
+        
 }
 .logo {
-  width:42px;
-  height:42px;
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 100%;
+
+  font-size: 42px;
+  font-weight: 500; 
+  padding:30px 50px;
 }
 .icon {
-  width:28px;
-  height:28px;
-  font-size: 48px;
-  cursor: pointer;
-  margin-right:16px;
+  font-size: 42px;
+  cursor: pointer;  
+   padding:30px 50px;
 }
 .menu {
   width: 80%;
@@ -34,4 +30,19 @@
   margin-bottom: 20px;
   cursor: pointer;
 }
-/* } */
+@media (max-width: 1024px) {
+  .navbar {
+    background-color: black;   
+    color: white;
+    width:100%;
+    border-bottom: 1px solid #808080;               
+  }
+
+@media (max-width: 783px) {
+  .navbar {
+    background-color: black;   
+    color: white;
+    width:100%;
+   border-bottom: 1px solid #808080;            
+  }
+}}

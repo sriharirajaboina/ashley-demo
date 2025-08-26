@@ -1,25 +1,29 @@
-/* @media (min-width: 1025px) { */
-     body{
-        font-family:"Outfit", sans-serif;
+ body{
+    font-family:"Outfit", sans-serif;
+    margin:0;
+    padding:0;
     }
     .publications{
-      width:74vw;
+      width:100%;
+      max-width:1140px;
       height:100%;
       font-size:16px;
-      margin:0 164px;
+      margin:0 auto;
       padding:120px 30px 60px;
     }
     .pub-nav{
-        width:1150px;
-        height:80px;
+        width:100%;
+        min-height:80px;
         font-size:16px;
         color:#00000080;
         display:flex;
         justify-content: space-between;
+        flex-wrap:wrap;
         margin:0 -15px 30px;
     }
     .pub-head{
-        width:555px;
+        width:100%;
+        max-width:550px;
         height:50px;
         color:#000000;
         font-size:42px;
@@ -27,27 +31,25 @@
         padding:0 15px;
     }
     .publication-btn{
-        width:125px;
-        height:40px;
+        width:auto;
+        min-width:125px;
+        height:auto;
         font-size:12px;
         display:flex;
         align-items: center;
-        justify-content: space-between;
     }
     .pub-view{
-        display:inline-block;
-        width:70px;
-        height:24px;
         font-size:12px;
         color:#000000;
         font-weight:bold;
         display:flex;
         align-items: center;
         justify-content: center;
+         padding:0 15px;
     }
     .publication-circle{
         width:22px;
-        height:20px;
+        height:22px;
         background-color: #0000001A;
         border-radius:50%;
         display: flex;
@@ -60,70 +62,63 @@
         display:flex;
     }
     .pub-about{
-        width:555px;
+        flex:1;
+        min-width:280px;
+        max-width:915px;
         color:#000000;
         font-size:16px;
-        margin:0 0 60px;
         padding:0 15px;
     }
     .pub-design-img{
-        width:535px;
-        height:360px;
+        width:90%;
+        max-width:915px;
+        height:auto;
     }
     .pub-img-details{
-        width:535px;
+        flex:1;
+        width:100%;
+        min-width:280px;
+        max-width:915px;
         height:300px;
         color:#00000080;
         font-size:16px;
-        padding:120px 30px 0 0;
+        padding:60px 30px 0 0;
     }
     .pub-date-d{
-        width:525px;
-        height:24px;
+       width:100%;
         font-size:16px;
         color:#00000080;
         margin:0 0 30px;
     }
     .pub-tech-d{
         display:inline-block;
-        width:101px;
-        height:24px;
+        min-width:101px;
         color:#ff9800;
         font-size:12px;
         margin:0 15px 0 0;
     }
     .pub-year-d{
         display:inline-block;
-        width:92px;
-        height:24px;
+        min-width:92px;
         color:#00000080;
         font-size:12px;
     }
     .pub-header-d{
-        width:525px;
-        height:67px;
         color:#000000;
         font-size:28px;
         margin:0 0 30px;
     }
     .pub-description-d{
-        width:525px;
-        height:48px;
         font-size:16px;
         color:#00000080;
         margin:0 0 30px;
     }
     .readmore-btn{
-        width:141px;
-        height:40px;
         font-size:12px;
         display:flex;
         align-items:center;
     }
     .pub-readmore-d{
-        display:inline-block;
-        width:86px;
-        height:24px;
         font-size:12px;
         color:#000000;
         font-weight:bold;
@@ -131,8 +126,8 @@
         align-items: center;
     }
     .readmore-circle{
-        width:40px;
-        height:40px;
+        width:36px;
+        height:36px;
         color:#000000;
         background-color: #0000001A;
         border-radius: 50%;
@@ -149,118 +144,75 @@
         align-items:center;
         justify-content: center;
     }
-/* } */
+@media (max-width: 992px) {
+  .publications {
+    padding: 90px 30px 30px;
+  }
+  .pub-nav{
+    display:flex;
+    flex-direction: column;
+  }
+  .pub-head {
+    font-size: 2rem;
+    text-align: left;
+  }
 
-@media screen and (max-width:1024px) {
-    .publications {
-        display: flex;
-        flex-direction: column;
-    }
+  .pub-about {
+    text-align:left;
+    font-size: 0.95rem;
+  }
 
-    .pub-nav {
-        display: flex;
-        flex-direction: column;
-        font-size: 50px;
-    }
+  .pub-img {
+    flex-direction: column;
+    align-items: left;
+  }
+  .pub-design-img{
+    width:90%;
+    max-width: 915px;
+  }
+  .pub-img-details {
+    width:100%;
+    max-width:910px;
+    padding: 20px 0;
+    font-size: 0.95rem;
+  }
 
-    .pub-head {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 60px;
-    }
+  .pub-header-d {
+    font-size: 1.4rem;
+  }
 
-    .pub-view {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
+  .pub-description-d {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 768px) {
+  .publications {
+    width: 95%;
+    padding: 40px 10px;
+  }
 
-    .pub-img {
-        display: flex;
-        flex-direction: column;
-        padding-left: 30px;
-    }
+  .pub-head {
+    font-size: 1.6rem;
+  }
 
-    .pub-about {
-        text-align: left;
-        margin-bottom: 100px;
-    }
+  .pub-about {
+    font-size: 0.9rem;
+  }
 
-    .pub-courses {
-        text-align: left;
-    }
+  .pub-header-d {
+    font-size: 1.2rem;
+  }
 
-    .pub-img img {
-        width: 95%;
-    }
+  .pub-description-d {
+    font-size: 0.9rem;
+  }
 
-    .pub-date-d {
-        font-size: 25px;
+  .publication-btn {
+    justify-content: left;
+    margin-top: 10px;
+  }
 
-    }
-
-    .pub-tech-d {
-        color: #ffa500
-    }
-
-    .pub-year-d {
-        color: #808080;
-    }
-
-    .pub-header-d {
-        font-size: 30px;
-    }
-
-    .pub-description-d {
-        color: #808080;
-        margin-bottom: 40px;
-    }
-
-    .pub-readmore-d {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-
-    .pub-date-c {
-        font-size: 25px;
-
-    }
-
-    .pub-tech-c {
-        color: #ffa500
-    }
-
-    .pub-year-c {
-        color: #808080;
-    }
-
-    .pub-header-c {
-        font-size: 30px;
-    }
-
-    .pub-description-c {
-        color: #808080;
-        margin-bottom: 40px;
-    }
-
-    .pub-readmore-c {
-        font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-
-    .pub-courses {
-        text-align: left;
-        margin-bottom: 100px;
-    }
-
-    .pub-courses br {
-        display: none;
-    }
-
-    .pub-about br {
-        display: none;
-    }
+  .readmore-btn {
+    justify-content: left;
+  }
 }
