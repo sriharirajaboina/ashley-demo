@@ -54,6 +54,7 @@
     color:#000000;
     display:flex;
     align-items: center;
+     cursor:pointer;
 }
 .team-circle{
     width:20px;
@@ -65,10 +66,12 @@
     justify-content: center;
     margin:0 0 0 30px;
     padding:10px;
+     cursor:pointer;
 }
 .team-arrow{
     color:#ffa500;
     font-size:12px;
+     cursor:pointer;
 }
 .team-result{
     font-size:28px;

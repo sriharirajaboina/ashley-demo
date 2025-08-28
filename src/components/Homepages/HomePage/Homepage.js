@@ -1,10 +1,10 @@
 import React from "react"
 import "./Homepage.css"
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../../Navbar/Navbar"
 import { useNavigate } from "react-router-dom"
+
 const Homepage=({scrollToTeam})=>{
     const navigate=useNavigate()
-    
     return(
         <>
         <section className="home">
@@ -23,7 +23,7 @@ const Homepage=({scrollToTeam})=>{
                     </p>    
                 <div className="buttons"> 
                     <div className= "btn">
-                        <div className= "btn-primary" onClick={()=>navigate("/service")}>
+                        <div className= "btn-primary" onClick={()=>navigate("/services-home")}>
                             <span className="btn-text" >WHAT WE DO </span>
                             <div className="home-innercircle">
                                 <span className="home-arrow">&#8594;</span>

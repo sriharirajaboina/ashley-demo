@@ -21,15 +21,15 @@ const Ideas=()=>{
                     <h2 className="bus-head"> 
                         For Your Bussines
                     </h2>
-                    <div className="buss-btn">
-                        <button className="btn-yellow" onClick={()=>navigate("/service")}>WHAT WE DO</button>
-                        <div className="ideas-circle" onClick={()=>navigate("/service")}>
+                    <div className="buss-btn" onClick={()=>navigate("/services-serv")}>
+                        <button className="btn-yellow" >WHAT WE DO</button>
+                        <div className="ideas-circle" >
                             <div className="ideas-arrow">&#8594;</div>
                         </div>
                     </div>    
                 </div>
             </div>
-            <div className="buss-designs">
+            <div className="buss-designs" onClick={()=>navigate("/service")}>
                 <div className="brand-des">
                     <h2>Branding and Identity Design</h2>
                     <p>Our creativity agency is ateam of professionals focused on helping your brand grow</p>

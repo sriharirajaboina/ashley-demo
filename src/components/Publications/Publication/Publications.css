@@ -37,6 +37,7 @@
         font-size:12px;
         display:flex;
         align-items: center;
+        cursor: pointer;
     }
     .pub-view{
         font-size:12px;
@@ -118,6 +119,7 @@
         font-size:12px;
         display:flex;
         align-items:center;
+        cursor:pointer;
     }
     .pub-readmore-d{
         font-size:12px;

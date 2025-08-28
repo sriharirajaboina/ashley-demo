@@ -12,9 +12,9 @@ const Team=()=>{
                     <h2><span>Meet</span><br/>Our Team</h2>
                     <p className="team-p">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
                     <p className="team-p1">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
-                    <div className="team-btn">
-                        <span className="btn-read-more" onClick={()=>navigate("/teammeet")}>READ MORE</span>
-                        <div className="team-circle" onClick={()=>navigate("/teammeet")}>
+                    <div className="team-btn" onClick={()=>navigate("/teammeet")}>
+                        <span className="btn-read-more" >READ MORE</span>
+                        <div className="team-circle" >
                             <div className="team-arrow">&#8594;</div>
                         </div>
                     </div>

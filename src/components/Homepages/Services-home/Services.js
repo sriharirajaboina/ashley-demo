@@ -1,6 +1,6 @@
 import React from "react"
-import Footer from "../footer/Footer"
-import "./Service.css"
+import Footer from "../../footer/Footer"
+import "./Services.css"
 
 const Service=()=>{
     return (
