@@ -11,7 +11,7 @@ import Publications from "./components/Publications/Publication/Publications";
 import Footer from "./components/footer/Footer"
 import Services from "./components/Homepages/Services-home/Services";
 import Portfolio from "./components/Homepages/portfolio/Portfolio"
-import Teammeet from "./components/team/team-meat/Team-meet";
+import Teammeet from "./components/team/teammeet/Teammeet";
 import Website from "./components/ideas/service-services/website"
 import Blog from "./components/Publications/blog/Blog";
 import Blogs from "./components/Publications/view-blog/Blogs";
