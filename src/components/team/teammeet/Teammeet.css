@@ -1,0 +1,118 @@
+body{
+    padding:0;
+    margin:0;
+   font-family:"Outfit", sans-serif;
+   box-sizing: border-box;
+}
+.teammeet{
+    padding-top:150px;
+}
+.team-meets{
+    max-width:1140px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding:0 30px;
+}
+.teammeet-blog-title{
+    font-size:clamp(6px,2vw,12px);
+    letter-spacing:1px;
+    margin-bottom:80px;
+}
+.teammeet-blog h1{
+     font-size:clamp(16px,6vw,86px);
+     letter-spacing: 2px;
+     margin:0 0 60px;
+}
+.teammeet-head{
+    font-weight: 100;
+}
+.teammeet-team{
+    display:flex;
+    align-items: center;
+}
+.teammeet-team-text{
+    font-size: clamp(9px,2vw,12px);
+    letter-spacing: 2px;
+}
+.teammeet-circle{
+    width:3.5%;
+    height:2.6vw;
+    background-color: #0000001A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+}
+.teammeet-images{
+    padding:120px 30px 90px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.teammeet-image{
+    padding:0 15px;
+}
+.teammeet-img{
+    width:100%;
+}
+.teammet-contacts-page{
+    background-color:rgb(242, 242, 242);
+    color:#00000080;
+}
+.teammeet-contact{
+    max-width:1140px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding:120px 30px;
+}
+.teammeet-contact-header p{
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: clamp(6px,2vw,16px);
+    margin:0 0 60px;
+    padding:0 15px;
+}
+.teammeet-contact-header h2{
+    text-align: center;
+    letter-spacing: 1px;
+    color:#000000;
+    font-size: clamp(12px,4vw,68px);
+    margin:0 0 60px;
+}
+.teammeet-contact-light{
+    font-weight:100;
+}
+.teammeet-contacts-us{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.teammeet-contact-us{
+    width:15%;
+    height:4.5vw;
+    background:#ff9800;
+    border-radius: 100px;
+    display:flex;
+    color:#000000;
+    align-items: center;
+    justify-content: space-between;
+     padding:0 15px 0 50px;
+}
+.teammeet-contact-text{
+    font-size:clamp(6px,2vw,12px);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.teammeet-contact-circle{
+     width:25%;
+    height:2.7vw;
+    background-color: #000000;
+    border-radius: 50%;
+    color:#ff9800;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
