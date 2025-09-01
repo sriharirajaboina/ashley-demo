@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:"Outfit", sans-serif;
+}
+.contact-page{
+    max-width:1140px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding:120px 30px 0;
+}
+.contact-page h3{
+    font-size:smaller;
+    letter-spacing:2px;
+    text-align:center;
+    margin:0 0 80px;
+}
+.contact-header{
+    font-size:clamp(12px,6vw,86px);
+    text-align: center;
+    font-weight:bold;
+    margin:0 0 60px;
+}
+.contact-send-msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-send-msg-text{
+    font-size:smaller;
+    font-weight:bold;
+}
+.contact-page-circle{
+    width:3.7%;
+    height:2.7vw;
+    background:#f2f2f2;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 0 0 15px;
+}
+.contact-space{
+    padding-bottom:120px;
+}
+.contact-map{
+    padding:300px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.contact-person-details{
+    max-width:1140px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding:120px 30px 90px;
+}
+.contact-person-details h3{
+    font-size:clamp(12px,4vw,42px);
+    text-align: center;
+    margin:0 0 120px;
+}
+.contact-person-details-light{
+    font-weight:100;
+}
+.contact-details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-details h4{
+    margin:0 0 30px;
+    color:#808080;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding:0 30px;
+}
+.contact-project{
+    padding:15px 30px;
+    margin:0 0 30px;
+    border-left: none;
+    border-right: none;
+}
+.contact-security{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-security p{
+    font-size:medium;
+    color:#808080;
+    margin:0 0 30px;
+}
+.contact-send{
+    width:15%;
+    height: 5vw;
+    background-color: #ff9800;
+    border-radius: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 15px 0 50px
+}
+.contact-send-text{
+    font-size:small;
+    font-weight:bold ;
+}
+.contact-send-circle{
+    width:25%;
+    height:2.7vw;
+    background-color: #000000;
+    border-radius: 50%;
+    color:#ff9800;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}

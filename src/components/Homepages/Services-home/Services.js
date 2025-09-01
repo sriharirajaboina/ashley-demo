@@ -1,8 +1,10 @@
 import React from "react"
 import Footer from "../../footer/Footer"
 import "./Services.css"
+import {useNavigate,Link} from "react-router-dom"
 
 const Service=()=>{
+    const navigate=useNavigate();
     return (
         <>
         <div className="service-page">
@@ -23,7 +25,7 @@ const Service=()=>{
                     <div className="design-animi">
                             space
                     </div>
-                    <div className="service-design">
+                    <div className="service-design" onClick={()=>navigate("/website")}>
                         <div className="service-details-designs">
                             <div className="service-brand-design">
                                 <div className="service-develop-designs">
@@ -91,6 +93,8 @@ const Service=()=>{
                     </div>
                 </div>
             </div >
+        </div>
+        <div className="center-section-home">
             <div className="center-section">
                 <div className="service-contact">
                     <p className="service-contact-p">Looking to make your mark? We'll help you turn<br/> 
@@ -98,6 +102,7 @@ const Service=()=>{
                     <h2 className="service-contact-head">Let's make an
                         <span className="service-contact-head-light"> impact</span> together.Ready
                         <span className="service-contact-head-light"> when you are </span></h2>
+                    <Link to="/contact" className="contact-btn-service">
                     <div className="contact-btn-service">
                         <div className="contact-btns-service">
                             <span className="center-btn-service">
@@ -106,15 +111,15 @@ const Service=()=>{
                         <div className="contact-circle">
                             <div className="center-service-arrow">&#8594;</div>
                         </div>
-                        </div>
-                        
+                        </div>  
                     </div>
-                </div>    
-            </div>
+                     </Link>  
+                </div>
+            </div>    
+        </div>
             <div className="bottom-section">
                     <Footer/>
             </div>
-        </div>
         </>
     )
 }

@@ -1,8 +1,10 @@
 import React from "react"
 import "./website.css"
 import Footer from "../../footer/Footer"
+import {useNavigate} from "react-router-dom"
 
 const Website=()=>{
+    const navigate=useNavigate();
     return(
         <>
         <div className="website-service">
@@ -82,7 +84,7 @@ const Website=()=>{
                 </div>
             </div>
         </div>
-        <div className="website-centers-one">
+        <div className="website-centers-one" onClick={()=>navigate("/contact")}>
             <div className="website-center-one">
                 <div className="website-center-one-headers">
                     <h2 className="website-center-one-header">Reasonal <span className="website-center-one-head">prices</span><br/>

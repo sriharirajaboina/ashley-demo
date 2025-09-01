@@ -1,8 +1,10 @@
 import React from "react"
 import Footer from "../../footer/Footer"
 import "./Teammeet.css"
+import {useNavigate} from "react-router-dom"
 
 const Teammeet=()=>{
+    const navigate=useNavigate();
     return (
         <>
         <div className="teammeet">
@@ -72,7 +74,7 @@ const Teammeet=()=>{
                     <h2 >Ready to bring your
                         <span className="teammeet-contact-light"> ideas to </span> life ? we're 
                         <span className="teammeet-contact-light"> here to help </span></h2>
-                    <div className="teammeet-contacts-us">
+                    <div className="teammeet-contacts-us" onClick={()=>navigate("/contact")}>
                         <div className="teammeet-contact-us">
                             <span className="teammeet-contact-text">
                             CONTACT US

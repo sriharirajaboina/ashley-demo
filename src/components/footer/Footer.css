@@ -90,22 +90,24 @@
         min-width:200px;
         font-size:16px;
        padding:0 15px;
+       cursor:pointer;
     }
-    .footer-center ul li{
-        list-style:none;
-        margin-bottom: 25px;
-       }   
-    .active{
-        color:#ff9800;
-        font-size:28px;
-        font-weight: 500; 
+    .footer-center-links{
+      list-style:none;
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+     
     }
-    .active-folio,.active-service,
-    .active-contact,.active-blog{
-        color:#ffffff;
-        font-size:28px;
-        
+    .footer-center-links a{
+      text-decoration: none;
+      color: #ffffff;       
+      font-size: xx-large;
+      transition: color 0.3s ease;
     }
+    .footer-center-links a:hover{
+      color:#ff9800;
+    }  
     .footer-right{
         padding:0 15px;
     }

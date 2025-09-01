@@ -15,7 +15,7 @@ import Teammeet from "./components/team/teammeet/Teammeet";
 import Website from "./components/ideas/service-services/website"
 import Blog from "./components/Publications/blog/Blog";
 import Blogs from "./components/Publications/view-blog/Blogs";
-
+import Contact from "./components/contact/Contact"
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const nextpageRef=useRef(null)
@@ -43,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Ideas/>}/>
           <Route path="/services-serv" element={<Services/>}/>
+          <Route path="/website" element={<Website/>}/>
           <Route path="/service" element={<Website/>}/>
         </Routes>
         <Routes>
@@ -59,6 +60,7 @@ function App() {
         </Routes>  
         <Routes>
           <Route path="/" element={<Footer/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>}
     </div>

@@ -1,8 +1,10 @@
 import React from "react"
 import Footer from "../../footer/Footer"
 import "./Portfolio.css"
+import {useNavigate} from "react-router-dom";
 
 const Portfolio=()=>{
+    const navigate=useNavigate()
     return (
         <>
         <div className="portfolio-page">
@@ -79,7 +81,7 @@ const Portfolio=()=>{
                 <h2 className="portfolio-contact-head">Ready to bring your
                     <span className="portfolio-contact-head-light"> ideas to </span> life ? we're 
                     <span className="portfolio-contact-head-light"> here to help </span></h2>
-                <div className="contact-btn-portfolio">
+                <div className="contact-btn-portfolio" onClick={()=>navigate("/contact")}>
                     <div className="contact-btns-portfolio">
                         <span className="center-btn-portfolio">
                         CONTACT US

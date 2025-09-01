@@ -1,7 +1,9 @@
 import React from "react"
 import "./Footer.css"
+import {useNavigate,Link} from "react-router-dom"
 
 const Footer=()=>{
+    const navigate=useNavigate();
     return (
         <>
         <footer className="footer">
@@ -13,18 +15,18 @@ const Footer=()=>{
                         <div className="email">
                             <input type="email" 
                             placeholder="Enter your email"/>
-                            <span className="footer-circle">
+                            <span className="footer-circle" >
                                 <div className="footer-arrow">&#8594;</div>
                             </span>
                         </div>
                     </div>
                     <div className="footer-center">
-                        <ul>
-                            <li className="active">Home</li>
-                            <li className="active-folio">Portfolio</li>
-                            <li className="active-service">Service</li>
-                            <li className="active-contact">Contact</li>
-                            <li className="active-blog">Blog</li>
+                        <ul className="footer-center-links">
+                            <li className="active"><Link to="/">Home</Link></li>
+                            <li className="active-folio"><Link to="/portfolio">Portfolio</Link></li>
+                            <li className="active-service"><Link to="/service">Service</Link></li>
+                            <li className="active-contact" ><Link to="/contact">Contact</Link></li>
+                            <li className="active-blog"><Link to="/view-blog">Blog</Link></li>
                         </ul>
                     </div>
                     <div className="footer-right">

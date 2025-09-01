@@ -37,11 +37,13 @@ const Homepage=({scrollToTeam})=>{
                             
                         </div>   
                     </div>
-                    <div className="btn-scroll" onClick={scrollToTeam}>
-                        <div className="inner-circle">
-                            <div className="scroll-arrow">&#8595;</div>
+                    <div className="text-circle">
+                        <div className="btn-scroll" onClick={scrollToTeam}>
+                            <div className="inner-circle">
+                                <div className="scroll-arrow">&#8595;</div>
+                            </div>
                         </div>
-                    </div> 
+                    </div>     
                 </div> 
                 <div className="home-rotate-text">
                         <h4>HOMEPAGE</h4>
