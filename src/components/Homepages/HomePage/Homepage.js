@@ -10,7 +10,6 @@ const Homepage=({scrollToTeam})=>{
         <section className="home">
            <div className="home-one">
                   {/* <Navbar/> */}
-
                     <h1 className="header" >Designing
                     <span className="highlight"> a Better </span> 
                     <br/> 
@@ -34,7 +33,6 @@ const Homepage=({scrollToTeam})=>{
                             <div className="view-circle">
                                 <span className="view-arrow">&#8594;</span>
                             </div>
-                            
                         </div>   
                     </div>
                     <div className="text-circle">

@@ -3,7 +3,6 @@
   max-width:1550px;
   width:100%;
   display: flex;
-  background-color: #000000;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;        
