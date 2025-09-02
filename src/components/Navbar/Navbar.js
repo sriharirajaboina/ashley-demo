@@ -16,13 +16,15 @@ export default function Navbar({menuOpen,toggleMenu,handleClickMenu}) {
             </div>}
         </div>
        {menuOpen && (
-        <div className="menu">
-          <h2>Homepage</h2>
-          <h2>Portfolio</h2>
-          <h2>Services</h2>
-          <h2>Newsletter</h2>
-          <h2>Other Pages</h2>
-        </div>
+        <div className="menu-render">
+          <div className="menu">
+            <h2 className="menu-active">Homepage</h2>
+            <h2>Portfolio</h2>
+            <h2>Services</h2>
+            <h2>Newsletter</h2>
+            <h2>Other Pages</h2>
+          </div>
+        </div> 
       )}
       </nav>
      

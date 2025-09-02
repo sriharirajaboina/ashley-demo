@@ -1,15 +1,14 @@
   .navbar {
   position: fixed;  
-  max-width:1520px;
+  max-width:1550px;
   width:100%;
   display: flex;
+  background-color: #000000;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
-        
+  z-index: 1000;        
 }
 .logo {
-
   font-size: 42px;
   font-weight: 500; 
   padding:30px 50px;
@@ -19,16 +18,33 @@
   cursor: pointer;  
    padding:30px 50px;
 }
+.menu-render{
+  position: fixed;
+  max-width: 1540px;
+  width:100%;
+  height:100vh;
+  top:115px;
+  background: #000000;
+  animation: slideIn 0.4s forwards;
+  display: flex;  
+}
 .menu {
-  width: 80%;
-  height: 80%;
-  padding: 50px;
-  background-color: white;
-  border: 2px solid black;
+  background-color: #000000;
+  color:#808080;
+  border: 1px solid black;
+  margin:0 160px;
+  padding:0 30px;
 }
 .menu h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: xx-large;
   cursor: pointer;
+}
+.menu-active{
+  color:#ff9800;
+}
+.menu h2:hover{
+  color:#ff9800;
 }
 @media (max-width: 1024px) {
   .navbar {

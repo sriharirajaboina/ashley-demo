@@ -30,7 +30,10 @@ function App() {
     }
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar 
+      menuOpen={menuOpen}
+      toggleMenu={toggleMenu}
+      handleClickMenu={handleClickMenu}/>
       {!menuOpen && <div>
         <Routes>
           <Route path="/" element={<Homepage scrollToTeam={scrollToTeam}/>}/>
